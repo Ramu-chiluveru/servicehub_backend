@@ -1,0 +1,30 @@
+2025-07-04T00:00:40.666+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-9] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:02:49.459+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:06:56.558+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-3] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:08:50.839+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-6] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:10:34.644+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-5] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:10:52.594+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-8] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:10:56.541+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-9] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:11:08.689+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-10] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:11:57.842+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:13:02.611+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-3] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:13:07.569+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-4] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:13:15.734+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-6] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:16:24.564+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-5] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:22:05.417+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-9] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:22:06.695+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-10] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:22:53.063+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:25:12.314+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-3] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:26:06.560+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-4] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:26:12.531+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-6] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:26:16.672+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-7] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:27:00.771+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-5] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:27:45.964+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-8] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:29:56.642+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-10] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:30:23.610+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:30:37.246+05:30  INFO 8664 --- [serviceHub_backend] [http-nio-8080-exec-2] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-07-04T00:32:03.376+05:30  INFO 8664 --- [serviceHub_backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-04T00:32:03.408+05:30  INFO 8664 --- [serviceHub_backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-04T00:32:03.519+05:30  INFO 8664 --- [serviceHub_backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-04T00:32:03.534+05:30  INFO 8664 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-04T00:32:03.556+05:30  INFO 8664 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
