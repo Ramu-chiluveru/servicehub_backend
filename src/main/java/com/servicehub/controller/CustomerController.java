@@ -44,18 +44,17 @@ public class CustomerController {
     }
 
     @GetMapping("/jobs")
-    public ResponseEntity<?> jobs(Authentication authentication)
+    public ResponseEntity<List<RequestDTO>> jobs(Authentication authentication)
     {
         String email = authentication.getName();
-        logger.info("Jobs request received from user: {}",email);
+        logger.info("Jobs request received from user: {}", email);
         User user = userService.getProfile(email);
-
         List<RequestDTO> requests = customerService.getJobs(user.getId());
         return ResponseEntity.ok(requests);
     }
 
     @GetMapping("/proposals")
-    public ResponseEntity<?> proposals(Authentication authentication,@Param("request_id") Long requestId)
+    public ResponseEntity<?> proposals(Authentication authentication,@Param("request_id") String requestId)
     {
         String email = authentication.getName();
         logger.info("Proposals request received from user: {}",email);

@@ -13,5 +13,5 @@ public class ProposalDTO
     private String providerName;
     private Double providerRating;
     private LocalDateTime submittedAt;
-    private Long proposalId;
+    private Long providerId;
 }
