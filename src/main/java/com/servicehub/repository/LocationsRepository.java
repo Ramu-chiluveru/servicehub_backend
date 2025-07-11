@@ -9,6 +9,8 @@ import com.servicehub.model.Locations;;
 @Repository
 public interface LocationsRepository extends JpaRepository<Locations, Long> 
 {
-    
+
 }
+
+
 

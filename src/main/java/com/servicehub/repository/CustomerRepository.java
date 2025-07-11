@@ -13,10 +13,12 @@ import java.util.List;
 @Repository
 public interface CustomerRepository extends JpaRepository<Requests, Long> 
 {
-    List<Requests> findByUserId(Long userId);
-
+    List<Requests> findByUserIdOrderByCreatedAtDesc(Long userId);
     List<ProposalDTO> findWithProposalsById(String requestId);
 
     @Query("SELECT COUNT(r) FROM Requests r WHERE DATE(r.createdAt) = :today")
     int countByCreatedAtDate(@Param("today") LocalDate today);
+
+    @Query("SELECT r FROM Requests r WHERE id = :id")
+    Requests findById(String id);
 }

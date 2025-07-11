@@ -18,12 +18,6 @@ public class Proposal {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "message", columnDefinition = "TEXT")
-    private String message;
-
-    @Column(name = "proposed_price")  
-    private Double proposedPrice;
-
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "provider_id", nullable = false)
     private User provider;  

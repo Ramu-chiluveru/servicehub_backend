@@ -1,5 +1,6 @@
 package com.servicehub.controller;
 
+import com.servicehub.dto.EditRequestDTO;
 import com.servicehub.dto.JobRequest;
 import com.servicehub.model.Requests;
 import com.servicehub.model.User;
@@ -41,6 +42,26 @@ public class CustomerController {
         customerService.addJob(user, jobRequest);  
 
         return ResponseEntity.ok("Job request submitted successfully");
+    }
+
+
+    @PutMapping("/job/{id}")
+    public ResponseEntity<?> updateJob(Authentication authentication,@RequestBody JobRequest jobRequest,@PathVariable String id) {
+        String email = authentication.getName();
+        logger.info("Job update request received from user: {}", email);
+
+        customerService.updateJob(id,jobRequest);
+
+        return ResponseEntity.ok("Job update request submitted successfully");
+    }
+
+    @GetMapping("/job/{id}")
+    public ResponseEntity<?> getJob(Authentication authentication,@PathVariable String id) {
+        String email = authentication.getName();
+        logger.info("Job details request received from user: {}", email);
+
+         EditRequestDTO editRequestDTO = customerService.getJobDetails(id);
+        return ResponseEntity.ok(editRequestDTO);
     }
 
     @GetMapping("/jobs")

@@ -31,7 +31,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class RequestDTO {
+public class RequestDTO
+{
     private String id;
     private String category;
     private String description;

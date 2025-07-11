@@ -8,8 +8,6 @@ import lombok.Data;
 public class ProposalDTO 
 {
     private Long id;
-    private String message;
-    private Double proposedPrice;
     private String providerName;
     private Double providerRating;
     private LocalDateTime submittedAt;

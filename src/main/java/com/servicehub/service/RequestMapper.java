@@ -22,7 +22,7 @@ public class RequestMapper {
                 request.getStatus().toString(),
                 request.getCreatedAt(),
                 request.getCompletedAt(),
-                request.getPriority(),
+                request.getPriority().toString(),
                 toProposalDTOs(request.getProposals())
         );
     }
@@ -36,8 +36,6 @@ public class RequestMapper {
     private ProposalDTO toProposalDTO(Proposal proposal) {
         ProposalDTO dto = new ProposalDTO();
         dto.setId(proposal.getId());
-        dto.setMessage(proposal.getMessage());
-        dto.setProposedPrice(proposal.getProposedPrice());
         dto.setProviderName(proposal.getProvider().getFirstName());
         dto.setProviderRating(proposal.getProviderRating());
         dto.setSubmittedAt(proposal.getSubmittedAt());

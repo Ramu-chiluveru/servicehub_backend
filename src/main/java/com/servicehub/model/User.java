@@ -72,4 +72,26 @@ public class User {
     @UpdateTimestamp
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
+
+    public String getLocation()
+    {
+        StringBuilder sb = new StringBuilder();
+
+        if (street != null && !street.isBlank()) sb.append(street).append(", ");
+        if (village != null && !village.isBlank()) sb.append(village).append(", ");
+        if (mandal != null && !mandal.isBlank()) sb.append(mandal).append(", ");
+        if (district != null && !district.isBlank()) sb.append(district).append(", ");
+        if (state != null && !state.isBlank()) sb.append(state).append(", ");
+        if (pincode != null && !pincode.isBlank()) sb.append("Pincode: ").append(pincode);
+
+
+        String location = sb.toString().trim();
+        if (location.endsWith(",")) {
+            location = location.substring(0, location.length() - 1);
+        }
+
+        return location;
+    }
+
+
 }

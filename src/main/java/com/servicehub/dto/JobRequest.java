@@ -8,4 +8,6 @@ public class JobRequest {
   private String description;
   private Double price;
   private String image;
+  private String priority;
+  private String status;
 }
