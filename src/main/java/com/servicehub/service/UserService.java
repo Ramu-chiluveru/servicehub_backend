@@ -1,11 +1,8 @@
 package com.servicehub.service;
 
-import com.servicehub.dto.UpdateRequest;
+import com.servicehub.dto.UpdateRequestDTO;
 import com.servicehub.model.User;
 import com.servicehub.repository.UserRepository;
-
-import java.util.Map;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -62,7 +59,7 @@ public class UserService {
     }
 
 
-    public User updateProfileDetails(String email, UpdateRequest request) 
+    public User updateProfileDetails(String email, UpdateRequestDTO request)
     {
         User updUser = userRepo.findByEmail(email);
         if (updUser == null) throw new RuntimeException("User not found");

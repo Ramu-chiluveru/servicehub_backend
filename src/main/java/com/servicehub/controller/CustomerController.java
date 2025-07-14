@@ -1,8 +1,7 @@
 package com.servicehub.controller;
 
 import com.servicehub.dto.EditRequestDTO;
-import com.servicehub.dto.JobRequest;
-import com.servicehub.model.Requests;
+import com.servicehub.dto.JobRequestDTO;
 import com.servicehub.model.User;
 import com.servicehub.security.JwtUtil;
 import com.servicehub.service.CustomerService;
@@ -34,23 +33,23 @@ public class CustomerController {
     private static final Logger logger = LoggerFactory.getLogger(CustomerController.class);
 
     @PostMapping("/job")
-    public ResponseEntity<?> submitJob(Authentication authentication,@RequestBody JobRequest jobRequest) {
+    public ResponseEntity<?> submitJob(Authentication authentication,@RequestBody JobRequestDTO jobRequestDTO) {
         String email = authentication.getName();
         logger.info("Job request received from user: {}", email);
 
         User user = userService.getProfile(email);  
-        customerService.addJob(user, jobRequest);  
+        customerService.addJob(user, jobRequestDTO);
 
         return ResponseEntity.ok("Job request submitted successfully");
     }
 
 
     @PutMapping("/job/{id}")
-    public ResponseEntity<?> updateJob(Authentication authentication,@RequestBody JobRequest jobRequest,@PathVariable String id) {
+    public ResponseEntity<?> updateJob(Authentication authentication, @RequestBody JobRequestDTO jobRequestDTO, @PathVariable String id) {
         String email = authentication.getName();
         logger.info("Job update request received from user: {}", email);
 
-        customerService.updateJob(id,jobRequest);
+        customerService.updateJob(id, jobRequestDTO);
 
         return ResponseEntity.ok("Job update request submitted successfully");
     }

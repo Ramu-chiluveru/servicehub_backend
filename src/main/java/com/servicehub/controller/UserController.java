@@ -1,7 +1,7 @@
 package com.servicehub.controller;
 
-import com.servicehub.dto.UpdateRequest;
-import com.servicehub.dto.UserResponse;
+import com.servicehub.dto.UpdateRequestDTO;
+import com.servicehub.dto.UserResponseDTO;
 import com.servicehub.model.User;
 import com.servicehub.security.JwtUtil;
 import com.servicehub.service.UserService;
@@ -93,12 +93,12 @@ public class UserController {
 
         User user = userService.getProfile(email);
         System.out.println("Phone registration: "+user.getPhone());
-        UserResponse userResponse = new UserResponse(user);
-        return ResponseEntity.ok(userResponse);
+        UserResponseDTO userResponseDTO = new UserResponseDTO(user);
+        return ResponseEntity.ok(userResponseDTO);
     }
 
     @PutMapping("/update")
-    public ResponseEntity<?> updateProfile(Authentication authentication, @RequestBody UpdateRequest request) {
+    public ResponseEntity<?> updateProfile(Authentication authentication, @RequestBody UpdateRequestDTO request) {
         
         String email = authentication.getName();
         logger.info("Update request for: {}", email);

@@ -3,7 +3,7 @@ package com.servicehub.dto;
 import lombok.Data;
 
 @Data
-public class UpdateRequest 
+public class UpdateRequestDTO
 {
   private String firstName;
   private String lastName;

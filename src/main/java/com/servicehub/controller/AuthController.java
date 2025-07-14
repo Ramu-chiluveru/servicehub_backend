@@ -1,6 +1,6 @@
 package com.servicehub.controller;
 
-import com.servicehub.dto.UserResponse;
+import com.servicehub.dto.UserResponseDTO;
 import com.servicehub.model.User;
 import com.servicehub.repository.UserRepository;
 import com.servicehub.security.JwtUtil;
@@ -48,7 +48,7 @@ public class AuthController {
         UserDetails userDetails = userDetailsService.loadUserByUsername(email);
         String token = jwtUtil.generateToken(userDetails);
         User user = userRepository.findByEmail(email);
-        UserResponse userResponse = new UserResponse(user);
+        UserResponseDTO userResponseDTO = new UserResponseDTO(user);
 
         return ResponseEntity.ok(Map.of(
             "token", token,

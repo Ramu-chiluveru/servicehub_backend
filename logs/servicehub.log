@@ -1,44 +1,30 @@
-2025-07-11T00:09:59.747+05:30  INFO 11200 --- [serviceHub_backend] [http-nio-8080-exec-6] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:09:59.747+05:30  INFO 11200 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:13:13.671+05:30  INFO 11200 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:13:13.674+05:30  INFO 11200 --- [serviceHub_backend] [http-nio-8080-exec-9] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:15:39.687+05:30  INFO 11200 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:15:39.687+05:30  INFO 11200 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:16:34.644+05:30  INFO 11200 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:16:34.660+05:30  INFO 11200 --- [serviceHub_backend] [http-nio-8080-exec-9] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:23:33.999+05:30  INFO 11200 --- [serviceHub_backend] [http-nio-8080-exec-2] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:23:34.025+05:30  INFO 11200 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:36:21.511+05:30  INFO 11200 --- [serviceHub_backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-11T00:36:21.526+05:30  INFO 11200 --- [serviceHub_backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-11T00:36:21.841+05:30  INFO 11200 --- [serviceHub_backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-11T00:36:21.856+05:30  INFO 11200 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-11T00:36:21.872+05:30  INFO 11200 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-11T00:36:28.605+05:30  INFO 8456 --- [serviceHub_backend] [main] com.servicehub.Application               : Starting Application using Java 21 with PID 8456 (C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend\target\classes started by ramuc in C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend)
-2025-07-11T00:36:28.620+05:30 DEBUG 8456 --- [serviceHub_backend] [main] com.servicehub.Application               : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-11T00:36:28.621+05:30  INFO 8456 --- [serviceHub_backend] [main] com.servicehub.Application               : No active profile set, falling back to 1 default profile: "default"
-2025-07-11T00:36:29.881+05:30  INFO 8456 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-11T00:36:29.881+05:30  INFO 8456 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-11T00:36:30.137+05:30  INFO 8456 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 232 ms. Found 3 JPA repository interfaces.
-2025-07-11T00:36:30.163+05:30  INFO 8456 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-11T00:36:30.163+05:30  INFO 8456 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2025-07-11T00:36:30.195+05:30  INFO 8456 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-11T00:36:30.195+05:30  INFO 8456 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.LocationsRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-11T00:36:30.195+05:30  INFO 8456 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-11T00:36:30.195+05:30  INFO 8456 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-2025-07-11T00:36:31.173+05:30  INFO 8456 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-11T00:36:31.189+05:30  INFO 8456 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-11T00:36:31.189+05:30  INFO 8456 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-11T00:36:31.284+05:30  INFO 8456 --- [serviceHub_backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-11T00:36:31.284+05:30  INFO 8456 --- [serviceHub_backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2587 ms
-2025-07-11T00:36:31.580+05:30  INFO 8456 --- [serviceHub_backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-11T00:36:31.658+05:30  INFO 8456 --- [serviceHub_backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-11T00:36:31.674+05:30  INFO 8456 --- [serviceHub_backend] [main] o.h.spatial.integration.SpatialService   : HHH80000001: hibernate-spatial integration enabled : true
-2025-07-11T00:36:31.767+05:30  INFO 8456 --- [serviceHub_backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-11T00:36:31.924+05:30  INFO 8456 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-11T00:36:32.206+05:30  INFO 8456 --- [serviceHub_backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@709d86a2
-2025-07-11T00:36:32.206+05:30  INFO 8456 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-11T00:36:32.253+05:30  WARN 8456 --- [serviceHub_backend] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-07-11T00:36:32.284+05:30  INFO 8456 --- [serviceHub_backend] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-07-14T19:49:56.503+05:30  INFO 5264 --- [serviceHub_backend] [main] com.servicehub.Application               : Starting Application using Java 21 with PID 5264 (C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend\target\classes started by ramuc in C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend)
+2025-07-14T19:49:56.518+05:30 DEBUG 5264 --- [serviceHub_backend] [main] com.servicehub.Application               : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-14T19:49:56.518+05:30  INFO 5264 --- [serviceHub_backend] [main] com.servicehub.Application               : No active profile set, falling back to 1 default profile: "default"
+2025-07-14T19:49:58.750+05:30  INFO 5264 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-14T19:49:58.750+05:30  INFO 5264 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-14T19:49:59.034+05:30  INFO 5264 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 261 ms. Found 4 JPA repository interfaces.
+2025-07-14T19:49:59.067+05:30  INFO 5264 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-14T19:49:59.067+05:30  INFO 5264 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-07-14T19:49:59.098+05:30  INFO 5264 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-07-14T19:49:59.098+05:30  INFO 5264 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.LocationsRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-07-14T19:49:59.098+05:30  INFO 5264 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.ProviderRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-07-14T19:49:59.098+05:30  INFO 5264 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-07-14T19:49:59.098+05:30  INFO 5264 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2025-07-14T19:50:00.306+05:30  INFO 5264 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-14T19:50:00.429+05:30  INFO 5264 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-14T19:50:00.429+05:30  INFO 5264 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-14T19:50:00.527+05:30  INFO 5264 --- [serviceHub_backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-14T19:50:00.527+05:30  INFO 5264 --- [serviceHub_backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3780 ms
+2025-07-14T19:50:00.922+05:30  INFO 5264 --- [serviceHub_backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-14T19:50:01.030+05:30  INFO 5264 --- [serviceHub_backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-14T19:50:01.062+05:30  INFO 5264 --- [serviceHub_backend] [main] o.h.spatial.integration.SpatialService   : HHH80000001: hibernate-spatial integration enabled : true
+2025-07-14T19:50:01.140+05:30  INFO 5264 --- [serviceHub_backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-14T19:50:01.410+05:30  INFO 5264 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-14T19:50:01.710+05:30  INFO 5264 --- [serviceHub_backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65753724
+2025-07-14T19:50:01.710+05:30  INFO 5264 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-14T19:50:01.771+05:30  WARN 5264 --- [serviceHub_backend] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-14T19:50:01.802+05:30  INFO 5264 --- [serviceHub_backend] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.4
@@ -46,304 +32,15 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-07-11T00:36:32.300+05:30  INFO 8456 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-11T00:36:32.788+05:30  INFO 8456 --- [serviceHub_backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-11T00:36:32.825+05:30  INFO 8456 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-11T00:36:33.306+05:30  INFO 8456 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000004: hibernate-spatial adding function contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-11T00:36:34.143+05:30  INFO 8456 --- [serviceHub_backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-11T00:36:34.717+05:30  INFO 8456 --- [serviceHub_backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-11T00:36:35.109+05:30 DEBUG 8456 --- [serviceHub_backend] [main] c.s.security.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
-2025-07-11T00:36:35.187+05:30  INFO 8456 --- [serviceHub_backend] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2025-07-11T00:36:35.251+05:30  INFO 8456 --- [serviceHub_backend] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-07-11T00:36:36.446+05:30  WARN 8456 --- [serviceHub_backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-11T00:36:37.679+05:30  INFO 8456 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-11T00:36:37.694+05:30  INFO 8456 --- [serviceHub_backend] [main] com.servicehub.Application               : Started Application in 9.793 seconds (process running for 10.42)
-2025-07-11T00:36:42.589+05:30  INFO 8456 --- [serviceHub_backend] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-11T00:36:42.589+05:30  INFO 8456 --- [serviceHub_backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-11T00:36:42.590+05:30  INFO 8456 --- [serviceHub_backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-07-11T00:36:43.078+05:30  INFO 8456 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:36:43.078+05:30  INFO 8456 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:36:49.331+05:30  WARN 8456 --- [serviceHub_backend] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<?> com.servicehub.controller.CustomerController.getJob(org.springframework.security.core.Authentication,com.servicehub.dto.JobRequest,java.lang.String)]
-2025-07-11T00:36:55.111+05:30  WARN 8456 --- [serviceHub_backend] [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<?> com.servicehub.controller.CustomerController.getJob(org.springframework.security.core.Authentication,com.servicehub.dto.JobRequest,java.lang.String)]
-2025-07-11T00:39:15.811+05:30  INFO 8456 --- [serviceHub_backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-11T00:39:15.826+05:30  INFO 8456 --- [serviceHub_backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-11T00:39:15.842+05:30  INFO 8456 --- [serviceHub_backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-11T00:39:15.842+05:30  INFO 8456 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-11T00:39:15.858+05:30  INFO 8456 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-11T00:39:22.332+05:30  INFO 10192 --- [serviceHub_backend] [main] com.servicehub.Application               : Starting Application using Java 21 with PID 10192 (C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend\target\classes started by ramuc in C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend)
-2025-07-11T00:39:22.332+05:30 DEBUG 10192 --- [serviceHub_backend] [main] com.servicehub.Application               : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-11T00:39:22.332+05:30  INFO 10192 --- [serviceHub_backend] [main] com.servicehub.Application               : No active profile set, falling back to 1 default profile: "default"
-2025-07-11T00:39:23.609+05:30  INFO 10192 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-11T00:39:23.609+05:30  INFO 10192 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-11T00:39:23.823+05:30  INFO 10192 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 196 ms. Found 3 JPA repository interfaces.
-2025-07-11T00:39:23.885+05:30  INFO 10192 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-11T00:39:23.901+05:30  INFO 10192 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2025-07-11T00:39:23.924+05:30  INFO 10192 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-11T00:39:23.924+05:30  INFO 10192 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.LocationsRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-11T00:39:23.924+05:30  INFO 10192 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-11T00:39:23.924+05:30  INFO 10192 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-2025-07-11T00:39:25.162+05:30  INFO 10192 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-11T00:39:25.190+05:30  INFO 10192 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-11T00:39:25.190+05:30  INFO 10192 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-11T00:39:25.301+05:30  INFO 10192 --- [serviceHub_backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-11T00:39:25.301+05:30  INFO 10192 --- [serviceHub_backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2886 ms
-2025-07-11T00:39:25.555+05:30  INFO 10192 --- [serviceHub_backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-11T00:39:25.632+05:30  INFO 10192 --- [serviceHub_backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-11T00:39:25.647+05:30  INFO 10192 --- [serviceHub_backend] [main] o.h.spatial.integration.SpatialService   : HHH80000001: hibernate-spatial integration enabled : true
-2025-07-11T00:39:25.710+05:30  INFO 10192 --- [serviceHub_backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-11T00:39:25.867+05:30  INFO 10192 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-11T00:39:26.103+05:30  INFO 10192 --- [serviceHub_backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3973b6d4
-2025-07-11T00:39:26.103+05:30  INFO 10192 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-11T00:39:26.158+05:30  WARN 10192 --- [serviceHub_backend] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-07-11T00:39:26.181+05:30  INFO 10192 --- [serviceHub_backend] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.4
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-07-11T00:39:26.197+05:30  INFO 10192 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-11T00:39:26.538+05:30  INFO 10192 --- [serviceHub_backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-11T00:39:26.576+05:30  INFO 10192 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-11T00:39:27.168+05:30  INFO 10192 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000004: hibernate-spatial adding function contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-11T00:39:28.052+05:30  INFO 10192 --- [serviceHub_backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-11T00:39:28.648+05:30  INFO 10192 --- [serviceHub_backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-11T00:39:29.463+05:30 DEBUG 10192 --- [serviceHub_backend] [main] c.s.security.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
-2025-07-11T00:39:29.602+05:30  INFO 10192 --- [serviceHub_backend] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2025-07-11T00:39:29.857+05:30  INFO 10192 --- [serviceHub_backend] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-07-11T00:39:31.954+05:30  WARN 10192 --- [serviceHub_backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-11T00:39:34.132+05:30  INFO 10192 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-11T00:39:34.184+05:30  INFO 10192 --- [serviceHub_backend] [main] com.servicehub.Application               : Started Application in 12.578 seconds (process running for 13.225)
-2025-07-11T00:39:42.490+05:30  INFO 10192 --- [serviceHub_backend] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-11T00:39:42.490+05:30  INFO 10192 --- [serviceHub_backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-11T00:39:42.490+05:30  INFO 10192 --- [serviceHub_backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-07-11T00:39:43.299+05:30  INFO 10192 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:39:43.300+05:30  INFO 10192 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:39:46.643+05:30  INFO 10192 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.CustomerController        : Job details request received from user: customer1@gmail.com
-2025-07-11T00:40:45.886+05:30  INFO 10192 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.CustomerController        : Job update request received from user: customer1@gmail.com
-2025-07-11T00:44:12.507+05:30  INFO 10192 --- [serviceHub_backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-11T00:44:12.520+05:30  INFO 10192 --- [serviceHub_backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-11T00:44:12.552+05:30  INFO 10192 --- [serviceHub_backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-11T00:44:12.552+05:30  INFO 10192 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-11T00:44:12.610+05:30  INFO 10192 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-11T00:44:18.009+05:30  INFO 5504 --- [serviceHub_backend] [main] com.servicehub.Application               : Starting Application using Java 21 with PID 5504 (C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend\target\classes started by ramuc in C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend)
-2025-07-11T00:44:18.009+05:30 DEBUG 5504 --- [serviceHub_backend] [main] com.servicehub.Application               : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-11T00:44:18.009+05:30  INFO 5504 --- [serviceHub_backend] [main] com.servicehub.Application               : No active profile set, falling back to 1 default profile: "default"
-2025-07-11T00:44:19.260+05:30  INFO 5504 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-11T00:44:19.266+05:30  INFO 5504 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-11T00:44:19.479+05:30  INFO 5504 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 201 ms. Found 3 JPA repository interfaces.
-2025-07-11T00:44:19.526+05:30  INFO 5504 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-11T00:44:19.526+05:30  INFO 5504 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2025-07-11T00:44:19.542+05:30  INFO 5504 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-11T00:44:19.542+05:30  INFO 5504 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.LocationsRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-11T00:44:19.557+05:30  INFO 5504 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-11T00:44:19.557+05:30  INFO 5504 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-2025-07-11T00:44:20.442+05:30  INFO 5504 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-11T00:44:20.456+05:30  INFO 5504 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-11T00:44:20.456+05:30  INFO 5504 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-11T00:44:20.535+05:30  INFO 5504 --- [serviceHub_backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-11T00:44:20.535+05:30  INFO 5504 --- [serviceHub_backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2431 ms
-2025-07-11T00:44:20.754+05:30  INFO 5504 --- [serviceHub_backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-11T00:44:20.817+05:30  INFO 5504 --- [serviceHub_backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-11T00:44:20.833+05:30  INFO 5504 --- [serviceHub_backend] [main] o.h.spatial.integration.SpatialService   : HHH80000001: hibernate-spatial integration enabled : true
-2025-07-11T00:44:20.911+05:30  INFO 5504 --- [serviceHub_backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-11T00:44:21.083+05:30  INFO 5504 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-11T00:44:21.320+05:30  INFO 5504 --- [serviceHub_backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@844e66d
-2025-07-11T00:44:21.335+05:30  INFO 5504 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-11T00:44:21.367+05:30  WARN 5504 --- [serviceHub_backend] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-07-11T00:44:21.382+05:30  INFO 5504 --- [serviceHub_backend] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.4
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-07-11T00:44:21.398+05:30  INFO 5504 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-11T00:44:21.806+05:30  INFO 5504 --- [serviceHub_backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-11T00:44:21.849+05:30  INFO 5504 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-11T00:44:22.401+05:30  INFO 5504 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000004: hibernate-spatial adding function contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-11T00:44:23.218+05:30  INFO 5504 --- [serviceHub_backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-11T00:44:23.672+05:30  INFO 5504 --- [serviceHub_backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-11T00:44:24.050+05:30 DEBUG 5504 --- [serviceHub_backend] [main] c.s.security.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
-2025-07-11T00:44:24.128+05:30  INFO 5504 --- [serviceHub_backend] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2025-07-11T00:44:24.191+05:30  INFO 5504 --- [serviceHub_backend] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-07-11T00:44:25.417+05:30  WARN 5504 --- [serviceHub_backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-11T00:44:27.131+05:30  INFO 5504 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-11T00:44:27.147+05:30  INFO 5504 --- [serviceHub_backend] [main] com.servicehub.Application               : Started Application in 9.837 seconds (process running for 10.422)
-2025-07-11T00:44:33.568+05:30  INFO 5504 --- [serviceHub_backend] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-11T00:44:33.569+05:30  INFO 5504 --- [serviceHub_backend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-11T00:44:33.571+05:30  INFO 5504 --- [serviceHub_backend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-07-11T00:44:34.214+05:30  INFO 5504 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:44:34.214+05:30  INFO 5504 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:44:51.047+05:30  INFO 5504 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.CustomerController        : Job details request received from user: customer1@gmail.com
-2025-07-11T00:46:09.798+05:30  INFO 5504 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.CustomerController        : Job details request received from user: customer1@gmail.com
-2025-07-11T00:46:20.410+05:30  INFO 5504 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.CustomerController        : Job update request received from user: customer1@gmail.com
-2025-07-11T00:46:29.175+05:30  INFO 5504 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:46:29.194+05:30  INFO 5504 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:48:59.732+05:30  INFO 5504 --- [serviceHub_backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-11T00:48:59.743+05:30  INFO 5504 --- [serviceHub_backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-11T00:48:59.790+05:30  INFO 5504 --- [serviceHub_backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-11T00:48:59.790+05:30  INFO 5504 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-11T00:48:59.809+05:30  INFO 5504 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-11T00:49:05.930+05:30  INFO 6244 --- [serviceHub_backend] [main] com.servicehub.Application               : Starting Application using Java 21 with PID 6244 (C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend\target\classes started by ramuc in C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend)
-2025-07-11T00:49:05.930+05:30 DEBUG 6244 --- [serviceHub_backend] [main] com.servicehub.Application               : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-11T00:49:05.935+05:30  INFO 6244 --- [serviceHub_backend] [main] com.servicehub.Application               : No active profile set, falling back to 1 default profile: "default"
-2025-07-11T00:49:07.169+05:30  INFO 6244 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-11T00:49:07.185+05:30  INFO 6244 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-11T00:49:07.389+05:30  INFO 6244 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 194 ms. Found 3 JPA repository interfaces.
-2025-07-11T00:49:07.420+05:30  INFO 6244 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-11T00:49:07.420+05:30  INFO 6244 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2025-07-11T00:49:07.436+05:30  INFO 6244 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-11T00:49:07.452+05:30  INFO 6244 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.LocationsRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-11T00:49:07.453+05:30  INFO 6244 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-11T00:49:07.454+05:30  INFO 6244 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
-2025-07-11T00:49:08.314+05:30  INFO 6244 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-11T00:49:08.330+05:30  INFO 6244 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-11T00:49:08.330+05:30  INFO 6244 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-11T00:49:08.409+05:30  INFO 6244 --- [serviceHub_backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-11T00:49:08.409+05:30  INFO 6244 --- [serviceHub_backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2383 ms
-2025-07-11T00:49:08.613+05:30  INFO 6244 --- [serviceHub_backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-11T00:49:08.692+05:30  INFO 6244 --- [serviceHub_backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-11T00:49:08.709+05:30  INFO 6244 --- [serviceHub_backend] [main] o.h.spatial.integration.SpatialService   : HHH80000001: hibernate-spatial integration enabled : true
-2025-07-11T00:49:08.787+05:30  INFO 6244 --- [serviceHub_backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-11T00:49:08.943+05:30  INFO 6244 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-11T00:49:09.198+05:30  INFO 6244 --- [serviceHub_backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5fd18419
-2025-07-11T00:49:09.198+05:30  INFO 6244 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-11T00:49:09.242+05:30  WARN 6244 --- [serviceHub_backend] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-07-11T00:49:09.257+05:30  INFO 6244 --- [serviceHub_backend] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.4
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-07-11T00:49:09.273+05:30  INFO 6244 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-11T00:49:09.632+05:30  INFO 6244 --- [serviceHub_backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-11T00:49:09.670+05:30  INFO 6244 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-11T00:49:10.152+05:30  INFO 6244 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000004: hibernate-spatial adding function contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-11T00:49:10.935+05:30  INFO 6244 --- [serviceHub_backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-11T00:49:11.358+05:30  INFO 6244 --- [serviceHub_backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-11T00:49:11.830+05:30 DEBUG 6244 --- [serviceHub_backend] [main] c.s.security.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
-2025-07-11T00:49:11.943+05:30  INFO 6244 --- [serviceHub_backend] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2025-07-11T00:49:12.025+05:30  INFO 6244 --- [serviceHub_backend] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-07-11T00:49:13.173+05:30  WARN 6244 --- [serviceHub_backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-11T00:49:14.521+05:30  INFO 6244 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-11T00:49:14.536+05:30  INFO 6244 --- [serviceHub_backend] [main] com.servicehub.Application               : Started Application in 9.312 seconds (process running for 9.901)
-2025-07-11T00:49:21.814+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-11T00:49:21.814+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-11T00:49:21.817+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-07-11T00:49:22.226+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:49:22.226+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-3] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:49:30.816+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.CustomerController        : Job details request received from user: customer1@gmail.com
-2025-07-11T00:49:39.599+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.CustomerController        : Job update request received from user: customer1@gmail.com
-2025-07-11T00:49:45.193+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-9] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:49:45.194+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:50:24.159+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.CustomerController        : Job details request received from user: customer1@gmail.com
-2025-07-11T00:50:31.869+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.CustomerController        : Job update request received from user: customer1@gmail.com
-2025-07-11T00:50:33.761+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:50:33.776+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-7] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:50:56.965+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.CustomerController        : Job details request received from user: customer1@gmail.com
-2025-07-11T00:51:00.556+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.CustomerController        : Job details request received from user: customer1@gmail.com
-2025-07-11T00:51:16.695+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.CustomerController        : Job update request received from user: customer1@gmail.com
-2025-07-11T00:51:18.165+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-4] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:51:18.180+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:51:36.740+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.CustomerController        : Job details request received from user: customer1@gmail.com
-2025-07-11T00:52:08.550+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:53:17.058+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-2] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:53:17.058+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:53:36.760+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-8] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:53:36.765+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:55:47.494+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:56:13.291+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-5] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:56:13.339+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-6] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:56:25.283+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:56:28.667+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-8] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:56:40.989+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-3] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:56:56.610+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:57:12.927+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-6] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:57:12.975+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-4] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:57:16.172+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-7] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T00:57:53.965+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-9] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T00:58:09.930+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-5] c.servicehub.controller.AuthController   : Received login request: {email=provider1@gmail.com, password=Test1234}
-2025-07-11T00:58:11.726+05:30  INFO 6244 --- [serviceHub_backend] [http-nio-8080-exec-4] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-11T00:59:26.714+05:30  INFO 6244 --- [serviceHub_backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-11T00:59:26.733+05:30  INFO 6244 --- [serviceHub_backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-11T00:59:26.765+05:30  INFO 6244 --- [serviceHub_backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-11T00:59:26.781+05:30  INFO 6244 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-11T00:59:26.797+05:30  INFO 6244 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-11T10:19:56.361+05:30  INFO 1696 --- [serviceHub_backend] [main] com.servicehub.Application               : Starting Application using Java 21 with PID 1696 (C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend\target\classes started by ramuc in C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend)
-2025-07-11T10:19:56.362+05:30 DEBUG 1696 --- [serviceHub_backend] [main] com.servicehub.Application               : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-11T10:19:56.362+05:30  INFO 1696 --- [serviceHub_backend] [main] com.servicehub.Application               : No active profile set, falling back to 1 default profile: "default"
-2025-07-11T10:19:57.914+05:30  INFO 1696 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-11T10:19:57.914+05:30  INFO 1696 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-11T10:19:58.132+05:30  INFO 1696 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 195 ms. Found 3 JPA repository interfaces.
-2025-07-11T10:19:58.163+05:30  INFO 1696 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-11T10:19:58.163+05:30  INFO 1696 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2025-07-11T10:19:58.195+05:30  INFO 1696 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-11T10:19:58.195+05:30  INFO 1696 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.LocationsRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-11T10:19:58.195+05:30  INFO 1696 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-11T10:19:58.195+05:30  INFO 1696 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
-2025-07-11T10:19:59.640+05:30  INFO 1696 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-11T10:19:59.671+05:30  INFO 1696 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-11T10:19:59.671+05:30  INFO 1696 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-11T10:19:59.822+05:30  INFO 1696 --- [serviceHub_backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-11T10:19:59.822+05:30  INFO 1696 --- [serviceHub_backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3285 ms
-2025-07-11T10:20:00.129+05:30  INFO 1696 --- [serviceHub_backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-11T10:20:00.223+05:30  INFO 1696 --- [serviceHub_backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-11T10:20:00.238+05:30  INFO 1696 --- [serviceHub_backend] [main] o.h.spatial.integration.SpatialService   : HHH80000001: hibernate-spatial integration enabled : true
-2025-07-11T10:20:00.285+05:30  INFO 1696 --- [serviceHub_backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-11T10:20:00.488+05:30  INFO 1696 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-11T10:20:00.770+05:30  INFO 1696 --- [serviceHub_backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ab33ca8
-2025-07-11T10:20:00.770+05:30  INFO 1696 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-11T10:20:00.832+05:30  WARN 1696 --- [serviceHub_backend] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-07-11T10:20:00.848+05:30  INFO 1696 --- [serviceHub_backend] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.4
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-07-11T10:20:00.879+05:30  INFO 1696 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-11T10:20:01.408+05:30  INFO 1696 --- [serviceHub_backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-11T10:20:01.439+05:30  INFO 1696 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-11T10:20:01.998+05:30  INFO 1696 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000004: hibernate-spatial adding function contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-11T10:20:02.818+05:30  INFO 1696 --- [serviceHub_backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-11T10:20:03.241+05:30  INFO 1696 --- [serviceHub_backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-11T10:20:03.711+05:30 DEBUG 1696 --- [serviceHub_backend] [main] c.s.security.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
-2025-07-11T10:20:03.789+05:30  INFO 1696 --- [serviceHub_backend] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2025-07-11T10:20:03.852+05:30  INFO 1696 --- [serviceHub_backend] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-07-11T10:20:05.424+05:30  WARN 1696 --- [serviceHub_backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-11T10:20:07.041+05:30  INFO 1696 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-11T10:20:07.056+05:30  INFO 1696 --- [serviceHub_backend] [main] com.servicehub.Application               : Started Application in 11.582 seconds (process running for 12.506)
-2025-07-11T10:20:40.003+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-11T10:20:40.003+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-11T10:20:40.011+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2025-07-11T10:20:40.428+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-2] c.servicehub.controller.AuthController   : Received login request: {email=customer1@gmail.com, password=Test1234}
-2025-07-11T10:20:42.855+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-4] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-11T10:23:49.649+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.CustomerController        : Job request received from user: customer1@gmail.com
-2025-07-11T10:23:55.462+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-11T10:24:25.995+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.CustomerController        : Job details request received from user: customer1@gmail.com
-2025-07-11T10:32:10.792+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-7] c.servicehub.controller.AuthController   : Received login request: {email=provider1@gmail.com, password=Test1234}
-2025-07-11T10:32:12.300+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-9] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-11T10:32:15.792+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.CustomerController        : Jobs request received from user: provider1@gmail.com
-2025-07-11T10:32:29.552+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.CustomerController        : Jobs request received from user: provider1@gmail.com
-2025-07-11T10:32:42.757+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-11T10:32:54.197+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.CustomerController        : Jobs request received from user: provider1@gmail.com
-2025-07-11T10:36:07.413+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.CustomerController        : Jobs request received from user: provider1@gmail.com
-2025-07-11T10:38:14.833+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-6] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-11T11:08:52.096+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-8] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-11T11:11:17.796+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-11T11:11:56.966+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-3] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-11T11:12:06.221+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.CustomerController        : Jobs request received from user: provider1@gmail.com
-2025-07-11T11:12:42.842+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-9] c.s.controller.CustomerController        : Jobs request received from user: provider1@gmail.com
-2025-07-11T11:14:11.566+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-10] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-11T11:14:30.280+05:30  INFO 1696 --- [serviceHub_backend] [http-nio-8080-exec-5] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-11T11:14:39.797+05:30  INFO 1696 --- [serviceHub_backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-11T11:14:39.813+05:30  INFO 1696 --- [serviceHub_backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-11T11:14:39.911+05:30  INFO 1696 --- [serviceHub_backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-11T11:14:39.925+05:30  INFO 1696 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-11T11:14:39.929+05:30  INFO 1696 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-14T19:50:01.833+05:30  INFO 5264 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
+2025-07-14T19:50:02.304+05:30  INFO 5264 --- [serviceHub_backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-14T19:50:02.333+05:30  INFO 5264 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
+2025-07-14T19:50:02.935+05:30  INFO 5264 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000004: hibernate-spatial adding function contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
+2025-07-14T19:50:03.737+05:30  INFO 5264 --- [serviceHub_backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-14T19:50:04.384+05:30  INFO 5264 --- [serviceHub_backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-14T19:50:04.867+05:30 DEBUG 5264 --- [serviceHub_backend] [main] c.s.security.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
+2025-07-14T19:50:04.961+05:30  INFO 5264 --- [serviceHub_backend] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-07-14T19:50:05.024+05:30  INFO 5264 --- [serviceHub_backend] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-14T19:50:06.400+05:30  WARN 5264 --- [serviceHub_backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-14T19:50:07.666+05:30  INFO 5264 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-14T19:50:07.682+05:30  INFO 5264 --- [serviceHub_backend] [main] com.servicehub.Application               : Started Application in 12.05 seconds (process running for 13.044)

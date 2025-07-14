@@ -3,8 +3,7 @@ package com.servicehub.dto;
 import lombok.Data;
 
 @Data
-public class LocationRequest {
-    private Long userId;
+public class LocationRequestDTO {
     private double latitude;
     private double longitude;
 }

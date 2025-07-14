@@ -16,7 +16,7 @@ public class Locations {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(columnDefinition = "geometry(Point,4326)", nullable = false)
+    @Column(columnDefinition = "geography(Point)", nullable = false)
     private Point location;
 
     @ManyToOne(fetch = FetchType.LAZY)

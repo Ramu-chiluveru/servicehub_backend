@@ -1,13 +1,12 @@
 package com.servicehub.service;
 
 import com.servicehub.dto.EditRequestDTO;
-import com.servicehub.dto.JobRequest;
+import com.servicehub.dto.JobRequestDTO;
 import com.servicehub.dto.ProposalDTO;
 import com.servicehub.dto.RequestDTO;
 import com.servicehub.model.Requests;
 import com.servicehub.model.User;
 import com.servicehub.repository.CustomerRepository;
-import com.servicehub.service.RequestMapper;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -29,7 +28,7 @@ public class CustomerService {
     @Autowired
     private RequestMapper requestMapper;
 
-    public void addJob(User user, JobRequest jobRequest) {
+    public void addJob(User user, JobRequestDTO jobRequestDTO) {
         LocalDate today = LocalDate.now();
         String dateStr = today.format(DateTimeFormatter.ofPattern("yyyyMMdd"));
         int count = customerRepository.countByCreatedAtDate(today);
@@ -38,10 +37,10 @@ public class CustomerService {
 
         Requests request = Requests.builder()
                 .id(customId)
-                .category(jobRequest.getCategory())
-                .description(jobRequest.getDescription())
-                .price(jobRequest.getPrice())
-                .priority(jobRequest.getPriority())
+                .category(jobRequestDTO.getCategory())
+                .description(jobRequestDTO.getDescription())
+                .price(jobRequestDTO.getPrice())
+                .priority(jobRequestDTO.getPriority())
                 .user(user)
                 .build();
 
@@ -60,30 +59,30 @@ public class CustomerService {
         return customerRepository.findWithProposalsById(requestId);
     }
 
-    public void updateJob(String id, JobRequest jobRequest) {
+    public void updateJob(String id, JobRequestDTO jobRequestDTO) {
         Requests request = customerRepository.findById(id);
         if (request == null) {
             throw new IllegalArgumentException("Request not found with id: " + id);
         }
 
-        if (jobRequest.getCategory() != null && !Objects.equals(request.getCategory(), jobRequest.getCategory())) {
-            request.setCategory(jobRequest.getCategory());
+        if (jobRequestDTO.getCategory() != null && !Objects.equals(request.getCategory(), jobRequestDTO.getCategory())) {
+            request.setCategory(jobRequestDTO.getCategory());
         }
 
-        if (jobRequest.getStatus() != null && !Objects.equals(request.getStatus(), jobRequest.getStatus())) {
-            request.setStatus(jobRequest.getStatus());
+        if (jobRequestDTO.getStatus() != null && !Objects.equals(request.getStatus(), jobRequestDTO.getStatus())) {
+            request.setStatus(jobRequestDTO.getStatus());
         }
 
-        if (jobRequest.getPriority() != null && !Objects.equals(request.getPriority(), jobRequest.getPriority())) {
-            request.setPriority(jobRequest.getPriority());
+        if (jobRequestDTO.getPriority() != null && !Objects.equals(request.getPriority(), jobRequestDTO.getPriority())) {
+            request.setPriority(jobRequestDTO.getPriority());
         }
 
-        if (jobRequest.getDescription() != null && !Objects.equals(request.getDescription(), jobRequest.getDescription())) {
-            request.setDescription(jobRequest.getDescription());
+        if (jobRequestDTO.getDescription() != null && !Objects.equals(request.getDescription(), jobRequestDTO.getDescription())) {
+            request.setDescription(jobRequestDTO.getDescription());
         }
 
-        if (jobRequest.getPrice() != null && !Objects.equals(request.getPrice(), jobRequest.getPrice())) {
-            request.setPrice(jobRequest.getPrice());
+        if (jobRequestDTO.getPrice() != null && !Objects.equals(request.getPrice(), jobRequestDTO.getPrice())) {
+            request.setPrice(jobRequestDTO.getPrice());
         }
 
         request.setCreatedAt(LocalDateTime.now());

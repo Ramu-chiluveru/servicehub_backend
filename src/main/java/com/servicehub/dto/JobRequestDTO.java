@@ -3,7 +3,7 @@ package com.servicehub.dto;
 import lombok.Data;
 
 @Data
-public class JobRequest {
+public class JobRequestDTO {
   private String category;
   private String description;
   private Double price;
