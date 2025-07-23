@@ -39,6 +39,7 @@
 package com.servicehub.controller;
 
 import com.servicehub.dto.PendingJobsDTO;
+import com.servicehub.dto.ServiceDTO;
 import com.servicehub.service.ProviderService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -62,6 +63,7 @@ public class ProviderController {
         this.providerService = providerService;
     }
 
+
     @GetMapping("/jobs")
     public ResponseEntity<List<PendingJobsDTO>> jobs(Authentication authentication) {
         String email = authentication.getName();
@@ -74,5 +76,32 @@ public class ProviderController {
             logger.error("Error fetching nearby jobs: {}", e.getMessage());
             return ResponseEntity.badRequest().build();
         }
+    }
+
+    @PostMapping("/service")
+    public ResponseEntity<?> addService(Authentication authentication, ServiceDTO request)
+    {
+        String email = authentication.getName();
+        logger.info("addService requested by provider: {}", email);
+
+        providerService.addService(email,request);
+        return  ResponseEntity.ok("Success");
+    }
+
+    @GetMapping("/services")
+    public ResponseEntity<List<ServiceDTO>> services(Authentication authentication)
+    {
+        String email = authentication.getName();
+        logger.info("Services request recieved from provider: {}",email);
+
+        try {
+            List<ServiceDTO> serviceDTOS = providerService.getServices(email);
+            logger.info("Found {} jobs near provider", serviceDTOS.size());
+            return ResponseEntity.ok(serviceDTOS);
+        } catch (RuntimeException e) {
+            logger.error("Error fetching nearby jobs: {}", e.getMessage());
+            return ResponseEntity.badRequest().build();
+        }
+
     }
 }

@@ -16,6 +16,7 @@
 //}
 package com.servicehub.repository;
 
+import com.servicehub.dto.ServiceDTO;
 import com.servicehub.model.Requests;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

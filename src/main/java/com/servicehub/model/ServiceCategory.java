@@ -16,7 +16,10 @@ public class ServiceCategory
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "service_name", nullable = false)
+    @Column(name="service_name")
+    private String servicename;
+
+    @Column(name = "category", nullable = false)
     private String category;
 
     @Column(name = "description", columnDefinition = "TEXT")
