@@ -79,13 +79,31 @@ public class ProviderController {
     }
 
     @PostMapping("/service")
-    public ResponseEntity<?> addService(Authentication authentication, ServiceDTO request)
+    public ResponseEntity<?> addService(Authentication authentication,@RequestBody ServiceDTO request)
     {
         String email = authentication.getName();
         logger.info("addService requested by provider: {}", email);
 
-        providerService.addService(email,request);
-        return  ResponseEntity.ok("Success");
+        try {
+            providerService.addService(email,request);
+            return ResponseEntity.ok("Service added successfully");
+        } catch (RuntimeException e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+    }
+
+
+    @PutMapping("/service/{serviceId}")
+    public ResponseEntity<?> updateService(Authentication authentication,@RequestBody ServiceDTO request,@PathVariable Long serviceId)
+    {
+        String email = authentication.getName();
+        logger.info("addService requested by provider: {}", email);
+        try {
+            providerService.updateService(serviceId,request);
+            return ResponseEntity.ok("Service updated successfully");
+        } catch (RuntimeException e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
     }
 
     @GetMapping("/services")
@@ -102,6 +120,17 @@ public class ProviderController {
             logger.error("Error fetching nearby jobs: {}", e.getMessage());
             return ResponseEntity.badRequest().build();
         }
-
     }
+
+    @DeleteMapping("/service/{id}")
+    public ResponseEntity<?> deleteService(@PathVariable("id") Long serviceId, Authentication authentication) {
+        String email = authentication.getName(); // Get the provider's email from authentication
+        try {
+            providerService.deleteService(email, serviceId); // Call service layer
+            return ResponseEntity.ok("Service deleted successfully");
+        } catch (RuntimeException e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+    }
+
 }

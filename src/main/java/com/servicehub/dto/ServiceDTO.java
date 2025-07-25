@@ -8,7 +8,7 @@ import lombok.Data;
 public class ServiceDTO
 {
     private String servicename;
-    private String descripton;
+    private String description;
     private double price;
     private String category;
     private Long id;

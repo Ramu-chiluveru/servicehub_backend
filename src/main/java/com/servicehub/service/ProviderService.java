@@ -1,80 +1,3 @@
-//
-//package com.servicehub.service;
-//
-//import com.servicehub.dto.PendingJobsDTO;
-//import com.servicehub.dto.ServiceDTO;
-//import com.servicehub.model.Requests;
-//import com.servicehub.model.ServiceCategory;
-//import com.servicehub.model.User;
-//import com.servicehub.model.Locations;
-//import com.servicehub.repository.ProviderRepository;
-//import com.servicehub.repository.UserRepository;
-//import com.servicehub.repository.LocationsRepository;
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.stereotype.Service;
-//
-//import java.util.List;
-//import java.util.Optional;
-//import java.util.stream.Collectors;
-//
-//@Service
-//public class ProviderService {
-//
-//    @Autowired
-//    private ProviderRepository providerRepository;
-//
-//    @Autowired
-//    private UserRepository userRepository;
-//
-//    @Autowired
-//    private LocationsRepository locationsRepository;
-//
-//    public List<PendingJobsDTO> getNearbyPendingJobs(String email)
-//    {
-//        User provider = userRepository.findByEmail(email);
-//
-//        // Get latest location for this provider
-//        Locations providerLocation = locationsRepository
-//                .findTopByUserIdOrderByIdDesc(provider.getId())
-//                .orElseThrow(() -> new RuntimeException("Provider location not found"));
-//
-//        // Get coordinates (latitude is Y, longitude is X)
-//        double lat = providerLocation.getLocation().getY();
-//        double lng = providerLocation.getLocation().getX();
-//
-//        List<Requests> nearbyRequests = providerRepository.findPendingRequestsNearProvider(lat, lng);
-//
-//        return nearbyRequests.stream().map(request -> PendingJobsDTO.builder()
-//                .id(String.valueOf(request.getId()))
-//                .customer(request.getUser().getFirstName() + " " + request.getUser().getLastName())
-//                .category(request.getCategory())
-//                .description(request.getDescription())
-//                .price(request.getPrice())
-//                .status(request.getStatus())
-//                .createdAt(request.getCreatedAt())
-//                .location(request.getUser().getLocation())
-//                .priority(request.getPriority())
-//                .build()
-//        ).collect(Collectors.toList());
-//    }
-//
-//
-//    public void addService(String email,ServiceDTO request)
-//    {
-//        User provider = userRepository.findByEmail(email);
-//        ServiceCategory serviceCategory = ServiceCategory.builder()
-//                .category(request.getCategory())
-//                .description(request.getDescripton())
-//                .price(request.getPrice())
-//                .servicename(request.getServicename())
-//                .user(provider)
-//                .build();
-//
-//        providerRepository.save(serviceCategory);
-//
-//    }
-//}
-
 package com.servicehub.service;
 
 import com.servicehub.dto.PendingJobsDTO;
@@ -93,6 +16,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -109,7 +33,7 @@ public class ProviderService {
     private LocationsRepository locationsRepository;
 
     @Autowired
-    ServiceCategoryRepository serviceCategoryRepository;
+    private ServiceCategoryRepository serviceCategoryRepository;
 
     /**
      * Get all pending jobs near the provider based on their latest location
@@ -118,16 +42,22 @@ public class ProviderService {
         User provider = Optional.ofNullable(userRepository.findByEmail(email))
                 .orElseThrow(() -> new RuntimeException("Provider not found with email: " + email));
 
-        // Get latest location for this provider
-        Locations providerLocation = locationsRepository
-                .findTopByUserIdOrderByIdDesc(provider.getId())
-                .orElseThrow(() -> new RuntimeException("Provider location not found"));
+        List<Requests> nearbyRequests;
 
-        // Extract coordinates (PostGIS point → latitude = Y, longitude = X)
-        double lat = providerLocation.getLocation().getY();
-        double lng = providerLocation.getLocation().getX();
+        try {
+//            Locations providerLocation = locationsRepository
+//                    .findTopByUserIdOrderByIdDesc(provider.getId())
+//                    .orElseThrow(() -> new RuntimeException("Provider location not found"));
+//
+//            double lat = providerLocation.getLocation().getY(); // Latitude
+//            double lng = providerLocation.getLocation().getX(); // Longitude
 
-        List<Requests> nearbyRequests = providerRepository.findPendingRequestsNearProvider(lat, lng);
+//            nearbyRequests = providerRepository.findPendingRequestsNearProvider(lat, lng);
+            nearbyRequests = providerRepository.findPendingRequestsNearProvider();
+        } catch (Exception e) {
+            // fallback in case location is unavailable
+            nearbyRequests = providerRepository.findPendingRequestsNearProvider();
+        }
 
         return nearbyRequests.stream().map(request -> PendingJobsDTO.builder()
                 .id(String.valueOf(request.getId()))
@@ -137,17 +67,17 @@ public class ProviderService {
                 .price(request.getPrice())
                 .status(request.getStatus())
                 .createdAt(request.getCreatedAt())
-                .location(
-                        request.getUser().getLocation() != null
-                                ? request.getUser().getLocation()
-                                : "Location not available"
-                )
+                .location(request.getUser().getLocation() != null
+                        ? request.getUser().getLocation()
+                        : "Location not available")
                 .priority(request.getPriority())
                 .build()
         ).collect(Collectors.toList());
     }
 
-
+    /**
+     * Provider adds a new service offering
+     */
     @Transactional
     public void addService(String email, ServiceDTO request) {
         User provider = Optional.ofNullable(userRepository.findByEmail(email))
@@ -155,7 +85,7 @@ public class ProviderService {
 
         ServiceCategory serviceCategory = ServiceCategory.builder()
                 .category(request.getCategory())
-                .description(request.getDescripton())
+                .description(request.getDescription())
                 .price(request.getPrice())
                 .servicename(request.getServicename())
                 .user(provider)
@@ -164,18 +94,60 @@ public class ProviderService {
         serviceCategoryRepository.save(serviceCategory);
     }
 
-    public List<ServiceDTO> getServices(String email)
-    {
-        User user = userRepository.findByEmail(email);
+    /**
+     * Get all services offered by the provider
+     */
+    public List<ServiceDTO> getServices(String email) {
+        User user = Optional.ofNullable(userRepository.findByEmail(email))
+                .orElseThrow(() -> new RuntimeException("Provider not found with email: " + email));
+
         List<ServiceCategory> services = serviceCategoryRepository.findAllByUserId(user.getId());
 
-        return  services.stream().map(service -> ServiceDTO.builder()
-                .id(service.getUser().getId())
+        return services.stream().map(service -> ServiceDTO.builder()
+                .id(service.getId())
                 .price(service.getPrice())
                 .servicename(service.getServicename())
-                .descripton(service.getDescription())
+                .description(service.getDescription())
                 .category(service.getCategory())
                 .build()
         ).collect(Collectors.toList());
+    }
+
+    /**
+     * Update an existing service offered by the provider
+     */
+    @Transactional
+    public void updateService(Long serviceId, ServiceDTO request) {
+        ServiceCategory service = serviceCategoryRepository.findById(serviceId)
+                .orElseThrow(() -> new RuntimeException("Service not found with id: " + serviceId));
+
+        if (request.getCategory() != null && !Objects.equals(service.getCategory(), request.getCategory())) {
+            service.setCategory(request.getCategory());
+        }
+
+        if (request.getServicename() != null && !Objects.equals(service.getServicename(), request.getServicename())) {
+            service.setServicename(request.getServicename());
+        }
+
+        if (request.getDescription() != null && !Objects.equals(service.getDescription(), request.getDescription())) {
+            service.setDescription(request.getDescription());
+        }
+
+        if (request.getPrice() != 0 && !Objects.equals(service.getPrice(), request.getPrice())) {
+            service.setPrice(request.getPrice());
+        }
+
+        serviceCategoryRepository.save(service);
+    }
+
+    /**
+     * Delete a service offered by the provider
+     */
+    @Transactional
+    public void deleteService(String email, Long serviceId) {
+        ServiceCategory service = serviceCategoryRepository.findById(serviceId)
+                .orElseThrow(() -> new RuntimeException("Service not found with id: " + serviceId));
+
+        serviceCategoryRepository.delete(service);
     }
 }
