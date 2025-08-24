@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface ProviderRepository extends JpaRepository<Requests, Long> {
+public interface ProviderRepository extends JpaRepository<Requests, String > {
 
     // Find nearby pending requests using PostGIS distance (within ~1km radius)
 //    @Query(value = """
@@ -30,6 +30,5 @@ public interface ProviderRepository extends JpaRepository<Requests, Long> {
 //    );
 
     // Fallback: Get all pending requests regardless of location
-    @Query("SELECT r FROM Requests r WHERE r.status = 'pending' ORDER BY r.createdAt DESC")
-    List<Requests> findPendingRequestsNearProvider();
+    // @Query("SELECT r FROM Requests r WHERE r.status = 'pending' ORDER BY r.createdAt DESC")
 }

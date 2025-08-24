@@ -27,7 +27,7 @@ public class Proposal {
     private Requests request;
 
     @Column(name = "provider_rating")
-    private Double providerRating; 
+    private double providerRating; 
 
     @CreationTimestamp
     @Column(name = "submitted_at", updatable = false)

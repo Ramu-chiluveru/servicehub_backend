@@ -4,9 +4,12 @@ import com.servicehub.dto.EditRequestDTO;
 import com.servicehub.dto.JobRequestDTO;
 import com.servicehub.dto.ProposalDTO;
 import com.servicehub.dto.RequestDTO;
+import com.servicehub.model.Proposal;
 import com.servicehub.model.Requests;
 import com.servicehub.model.User;
 import com.servicehub.repository.CustomerRepository;
+import com.servicehub.repository.ProposalRepo;
+import com.servicehub.repository.RequestsRepo;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -22,11 +25,20 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 public class CustomerService {
 
+    private final RequestsRepo requestsRepo;
+
     @Autowired
     private CustomerRepository customerRepository;
 
     @Autowired
     private RequestMapper requestMapper;
+
+    @Autowired
+    ProposalRepo proposalRepo;
+
+    CustomerService(RequestsRepo requestsRepo) {
+        this.requestsRepo = requestsRepo;
+    }
 
     public void addJob(User user, JobRequestDTO jobRequestDTO) {
         LocalDate today = LocalDate.now();
@@ -57,6 +69,18 @@ public class CustomerService {
 
     public List<ProposalDTO> getProposals(String requestId) {
         return customerRepository.findWithProposalsById(requestId);
+    }
+
+    public void updateProposal(String requestId,Long proposalId)
+    {
+
+            Requests request = requestsRepo.getReferenceById(requestId);
+            Proposal proposal = proposalRepo.getReferenceById(proposalId);
+            User provider = proposal.getProvider();
+            request.setProvider(provider);
+            request.setStatus("confirmed");
+
+            requestsRepo.save(request);
     }
 
     public void updateJob(String id, JobRequestDTO jobRequestDTO) {

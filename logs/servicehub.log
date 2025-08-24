@@ -1,131 +1,117 @@
-2025-07-26T00:00:01.610+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:00:01.643+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:00:13.035+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : addService requested by provider: provider1@gmail.com
-2025-07-26T00:00:15.175+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-9] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:00:15.225+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:00:15.245+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Found 3 jobs near provider
-2025-07-26T00:00:17.930+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:00:17.947+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:00:47.302+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-26T00:00:48.507+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.CustomerController        : Job update request received from user: customer1@gmail.com
-2025-07-26T00:00:50.483+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-26T00:00:54.585+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:00:54.603+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-7] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:00:54.612+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:01:25.091+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.CustomerController        : Job request received from user: customer1@gmail.com
-2025-07-26T00:01:28.009+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-4] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
-2025-07-26T00:01:28.024+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
-2025-07-26T00:01:30.959+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:01:30.959+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-6] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:01:30.978+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Found 3 jobs near provider
-2025-07-26T00:01:49.915+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-7] c.servicehub.controller.AuthController   : Received login request: {email=customer2@gmail.com, password=Test1234}
-2025-07-26T00:01:51.346+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-10] c.servicehub.controller.UserController   : Profile request for: customer2@gmail.com
-2025-07-26T00:01:55.277+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.CustomerController        : Jobs request received from user: customer2@gmail.com
-2025-07-26T00:02:22.299+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.CustomerController        : Job request received from user: customer2@gmail.com
-2025-07-26T00:02:25.377+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.CustomerController        : Jobs request received from user: customer2@gmail.com
-2025-07-26T00:02:25.377+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-6] c.servicehub.controller.UserController   : Profile request for: customer2@gmail.com
-2025-07-26T00:02:31.111+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-7] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:02:31.111+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:02:31.145+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:03:16.316+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-5] c.servicehub.controller.UserController   : Registration request received for email: customer3@gmail.com
-2025-07-26T00:03:16.664+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-5] c.servicehub.controller.UserController   : User registered successfully with email: customer3@gmail.com
-2025-07-26T00:03:19.348+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-8] c.servicehub.controller.UserController   : Role set request received for email: customer3@gmail.com
-2025-07-26T00:03:33.608+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-3] c.servicehub.controller.UserController   : Address set request received for email: customer3@gmail.com
-2025-07-26T00:03:33.740+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-2] c.servicehub.controller.UserController   : Profile request for: customer3@gmail.com
-2025-07-26T00:03:55.218+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.CustomerController        : Job request received from user: customer3@gmail.com
-2025-07-26T00:03:56.653+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-9] c.s.controller.CustomerController        : Jobs request received from user: customer3@gmail.com
-2025-07-26T00:04:01.005+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:04:01.011+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-5] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:04:01.021+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:04:07.403+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-8] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:04:07.419+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:04:07.438+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:04:08.702+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-10] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:04:08.718+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:04:08.738+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:04:09.737+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:04:09.737+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-3] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:04:09.760+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:04:12.538+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:04:12.554+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:04:18.578+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.CustomerController        : Jobs request received from user: provider1@gmail.com
-2025-07-26T00:04:19.700+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:04:19.736+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:04:19.755+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:04:20.178+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:04:20.177+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-2] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:04:20.202+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:04:20.535+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:04:20.535+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-9] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:04:20.581+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:04:34.101+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.CustomerController        : Jobs request received from user: customer3@gmail.com
-2025-07-26T00:04:34.101+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-7] c.servicehub.controller.UserController   : Profile request for: customer3@gmail.com
-2025-07-26T00:04:38.453+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:04:38.462+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:04:38.485+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:04:56.921+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-2] c.servicehub.controller.AuthController   : Received login request: {email=provider1@gmail.com, password=Test1234}
-2025-07-26T00:04:58.391+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:04:58.423+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:05:04.562+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-6] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:05:04.576+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-9] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:05:04.599+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-9] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:07:17.288+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:07:17.288+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:07:17.322+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:07:51.425+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-9] c.servicehub.controller.UserController   : Registration request received for email: provider2@gmail.com
-2025-07-26T00:07:51.775+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-9] c.servicehub.controller.UserController   : User registered successfully with email: provider2@gmail.com
-2025-07-26T00:07:54.211+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-5] c.servicehub.controller.UserController   : Role set request received for email: provider2@gmail.com
-2025-07-26T00:08:16.649+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-10] c.servicehub.controller.UserController   : Address set request received for email: provider2@gmail.com
-2025-07-26T00:08:16.705+05:30  WARN 9832 --- [serviceHub_backend] [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 22001
-2025-07-26T00:08:16.705+05:30 ERROR 9832 --- [serviceHub_backend] [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: value too long for type character varying(6)
-2025-07-26T00:08:16.753+05:30 ERROR 9832 --- [serviceHub_backend] [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [ERROR: value too long for type character varying(6)] [update users set active=?,district=?,email=?,first_name=?,image_url=?,last_name=?,mandal=?,password=?,phone=?,pincode=?,role=?,state=?,street=?,suspended=?,updated_at=?,village=? where id=?]; SQL [update users set active=?,district=?,email=?,first_name=?,image_url=?,last_name=?,mandal=?,password=?,phone=?,pincode=?,role=?,state=?,street=?,suspended=?,updated_at=?,village=? where id=?]] with root cause
+2025-08-24T22:06:34.654+05:30  INFO 16700 --- [serviceHub_backend] [main] com.servicehub.Application               : Starting Application using Java 21 with PID 16700 (C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend\target\classes started by ramuc in C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend)
+2025-08-24T22:06:34.667+05:30 DEBUG 16700 --- [serviceHub_backend] [main] com.servicehub.Application               : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-08-24T22:06:34.667+05:30  INFO 16700 --- [serviceHub_backend] [main] com.servicehub.Application               : No active profile set, falling back to 1 default profile: "default"
+2025-08-24T22:06:36.275+05:30  INFO 16700 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-24T22:06:36.278+05:30  INFO 16700 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-24T22:06:36.657+05:30  INFO 16700 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 364 ms. Found 7 JPA repository interfaces.
+2025-08-24T22:06:36.701+05:30  INFO 16700 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-24T22:06:36.706+05:30  INFO 16700 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-24T22:06:36.735+05:30  INFO 16700 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-24T22:06:36.742+05:30  INFO 16700 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.LocationsRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-24T22:06:36.742+05:30  INFO 16700 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.ProposalRepo; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-24T22:06:36.746+05:30  INFO 16700 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.ProviderRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-24T22:06:36.747+05:30  INFO 16700 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.RequestsRepo; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-24T22:06:36.749+05:30  INFO 16700 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.ServiceCategoryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-24T22:06:36.751+05:30  INFO 16700 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-24T22:06:36.751+05:30  INFO 16700 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2025-08-24T22:06:37.734+05:30  INFO 16700 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-24T22:06:37.768+05:30  INFO 16700 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-24T22:06:37.768+05:30  INFO 16700 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-08-24T22:06:37.883+05:30  INFO 16700 --- [serviceHub_backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-24T22:06:37.883+05:30  INFO 16700 --- [serviceHub_backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3109 ms
+2025-08-24T22:06:38.191+05:30  INFO 16700 --- [serviceHub_backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-24T22:06:38.370+05:30  INFO 16700 --- [serviceHub_backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-08-24T22:06:38.406+05:30  INFO 16700 --- [serviceHub_backend] [main] o.h.spatial.integration.SpatialService   : HHH80000001: hibernate-spatial integration enabled : true
+2025-08-24T22:06:38.474+05:30  INFO 16700 --- [serviceHub_backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-24T22:06:38.760+05:30  INFO 16700 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-24T22:06:39.133+05:30  INFO 16700 --- [serviceHub_backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@595814a1
+2025-08-24T22:06:39.142+05:30  INFO 16700 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-24T22:06:39.215+05:30  WARN 16700 --- [serviceHub_backend] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-24T22:06:39.251+05:30  INFO 16700 --- [serviceHub_backend] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-24T22:06:39.278+05:30  INFO 16700 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
+2025-08-24T22:06:39.757+05:30  INFO 16700 --- [serviceHub_backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-24T22:06:39.807+05:30  INFO 16700 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
+2025-08-24T22:06:40.667+05:30  INFO 16700 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000004: hibernate-spatial adding function contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
+2025-08-24T22:06:42.534+05:30  INFO 16700 --- [serviceHub_backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-24T22:06:43.526+05:30  INFO 16700 --- [serviceHub_backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-24T22:06:44.353+05:30 DEBUG 16700 --- [serviceHub_backend] [main] c.s.security.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
+2025-08-24T22:06:44.494+05:30  INFO 16700 --- [serviceHub_backend] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-08-24T22:06:44.598+05:30  INFO 16700 --- [serviceHub_backend] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-24T22:06:47.651+05:30  WARN 16700 --- [serviceHub_backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-24T22:06:53.271+05:30  INFO 16700 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-24T22:06:53.283+05:30  INFO 16700 --- [serviceHub_backend] [main] com.servicehub.Application               : Started Application in 19.662 seconds (process running for 20.748)
+2025-08-24T22:07:12.783+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-24T22:07:12.783+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-24T22:07:12.783+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-08-24T22:07:13.052+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-3] c.servicehub.controller.AuthController   : Received login request: {email=customer1@gmail.com, password=Test1234}
+2025-08-24T22:07:15.315+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-4] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T22:07:23.314+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T22:08:51.967+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.CustomerController        : Job details request received from user: customer1@gmail.com
+2025-08-24T22:08:57.069+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T22:08:59.761+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T22:18:00.116+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-5] c.servicehub.controller.AuthController   : Received login request: {email=customer1@gmail.com, password=Test1234}
+2025-08-24T22:18:01.563+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-7] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T22:18:12.368+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-9] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T22:18:27.770+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.AuthController   : Received login request: {email=provider1@gmail.com, password=Test1234}
+2025-08-24T22:18:29.311+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-3] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
+2025-08-24T22:18:29.323+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
+2025-08-24T22:18:29.375+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Found 4 jobs near provider
+2025-08-24T22:18:32.771+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Raised jobs requested by provider: provider1@gmail.com
+2025-08-24T22:18:32.787+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Found 2 jobs near provider
+2025-08-24T22:18:55.594+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
+2025-08-24T22:18:55.597+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-9] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
+2025-08-24T22:18:55.613+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Found 4 jobs near provider
+2025-08-24T22:18:59.415+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-3] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
+2025-08-24T22:18:59.449+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
+2025-08-24T22:18:59.484+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Found 4 jobs near provider
+2025-08-24T22:19:08.531+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T22:19:08.557+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-7] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T22:19:36.850+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.CustomerController        : Job request received from user: customer1@gmail.com
+2025-08-24T22:19:39.322+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-3] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T22:19:39.340+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T22:20:04.221+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-7] c.servicehub.controller.AuthController   : Received login request: {email=provider1@gmail.com, password=Test1234}
+2025-08-24T22:20:05.598+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
+2025-08-24T22:20:05.609+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
+2025-08-24T22:20:05.636+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.ProviderController        : Found 5 jobs near provider
+2025-08-24T22:20:11.944+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : raisepropsal request recieved from provider: provider1@gmail.com for requestid: REQ_20250824_1
+2025-08-24T22:20:13.647+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-8] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
+2025-08-24T22:20:13.648+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
+2025-08-24T22:20:13.687+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Found 4 jobs near provider
+2025-08-24T22:20:19.143+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-9] c.s.controller.ProviderController        : Raised jobs requested by provider: provider1@gmail.com
+2025-08-24T22:20:19.159+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-9] c.s.controller.ProviderController        : Found 3 jobs near provider
+2025-08-24T22:20:32.359+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T22:20:32.359+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-3] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T22:21:20.426+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-8] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T22:21:49.522+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
+2025-08-24T22:21:49.550+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Found 1 jobs near provider
+2025-08-24T22:22:04.285+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Raised jobs requested by provider: provider1@gmail.com
+2025-08-24T22:22:04.303+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Found 3 jobs near provider
+2025-08-24T22:22:22.216+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T22:25:32.401+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-7] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T22:25:32.414+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T22:27:13.839+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T22:28:10.000+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T22:28:10.007+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-4] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T22:29:48.447+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-7] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T22:29:48.472+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T22:31:43.155+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.CustomerController        : Job update request received from user: customer1@gmail.com
+2025-08-24T22:31:43.172+05:30 ERROR 16700 --- [serviceHub_backend] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Request not found with id: 4] with root cause
 
-org.postgresql.util.PSQLException: ERROR: value too long for type character varying(6)
-	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2734) ~[postgresql-42.7.7.jar:42.7.7]
-	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2421) ~[postgresql-42.7.7.jar:42.7.7]
-	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372) ~[postgresql-42.7.7.jar:42.7.7]
-	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:518) ~[postgresql-42.7.7.jar:42.7.7]
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435) ~[postgresql-42.7.7.jar:42.7.7]
-	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:196) ~[postgresql-42.7.7.jar:42.7.7]
-	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:157) ~[postgresql-42.7.7.jar:42.7.7]
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-6.3.0.jar:na]
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-6.3.0.jar:na]
-	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:134) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.persister.entity.mutation.UpdateCoordinatorStandard.doStaticUpdate(UpdateCoordinatorStandard.java:781) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.persister.entity.mutation.UpdateCoordinatorStandard.performUpdate(UpdateCoordinatorStandard.java:328) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.persister.entity.mutation.UpdateCoordinatorStandard.update(UpdateCoordinatorStandard.java:245) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.action.internal.EntityUpdateAction.execute(EntityUpdateAction.java:169) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:644) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:511) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:414) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1429) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:491) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2354) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1978) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
-	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562) ~[spring-orm-6.2.8.jar:6.2.8]
-	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795) ~[spring-tx-6.2.8.jar:6.2.8]
-	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758) ~[spring-tx-6.2.8.jar:6.2.8]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:698) ~[spring-tx-6.2.8.jar:6.2.8]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:416) ~[spring-tx-6.2.8.jar:6.2.8]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.8.jar:6.2.8]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.8.jar:6.2.8]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.5.1.jar:3.5.1]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.8.jar:6.2.8]
-	at jdk.proxy2/jdk.proxy2.$Proxy132.save(Unknown Source) ~[na:na]
-	at com.servicehub.service.UserService.updateUserAddress(UserService.java:53) ~[classes/:na]
-	at com.servicehub.controller.UserController.setAddress(UserController.java:80) ~[classes/:na]
+java.lang.IllegalArgumentException: Request not found with id: 4
+	at com.servicehub.service.CustomerService.updateJob(CustomerService.java:65) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:724) ~[spring-aop-6.2.8.jar:6.2.8]
+	at com.servicehub.service.CustomerService$$SpringCGLIB$$0.updateJob(<generated>) ~[classes/:na]
+	at com.servicehub.controller.CustomerController.updateJob(CustomerController.java:52) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.8.jar:6.2.8]
@@ -137,8 +123,8 @@ org.postgresql.util.PSQLException: ERROR: value too long for type character vary
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.8.jar:6.2.8]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.8.jar:6.2.8]
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.8.jar:6.2.8]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.8.jar:6.2.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.42.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593) ~[tomcat-embed-core-10.1.42.jar:6.0]
 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.8.jar:6.2.8]
 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.42.jar:6.0]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
@@ -233,53 +219,176 @@ org.postgresql.util.PSQLException: ERROR: value too long for type character vary
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2025-07-26T00:08:42.597+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-4] c.servicehub.controller.UserController   : Address set request received for email: provider2@gmail.com
-2025-07-26T00:08:42.868+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider2@gmail.com
-2025-07-26T00:08:42.885+05:30 ERROR 9832 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.ProviderController        : Error fetching nearby jobs: Provider location not found
-2025-07-26T00:08:50.167+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-9] c.servicehub.controller.UserController   : Profile request for: provider2@gmail.com
-2025-07-26T00:08:50.174+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider2@gmail.com
-2025-07-26T00:08:50.185+05:30 ERROR 9832 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Error fetching nearby jobs: Provider location not found
-2025-07-26T00:09:04.807+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-5] c.servicehub.controller.UserController   : Profile request for: provider2@gmail.com
-2025-07-26T00:09:04.812+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider2@gmail.com
-2025-07-26T00:09:04.827+05:30 ERROR 9832 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Error fetching nearby jobs: Provider location not found
-2025-07-26T00:09:05.676+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-10] c.servicehub.controller.UserController   : Profile request for: provider2@gmail.com
-2025-07-26T00:09:05.693+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider2@gmail.com
-2025-07-26T00:09:05.711+05:30 ERROR 9832 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Error fetching nearby jobs: Provider location not found
-2025-07-26T00:09:17.444+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Services request recieved from provider: provider2@gmail.com
-2025-07-26T00:09:17.454+05:30  INFO 9832 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Found 0 jobs near provider
-2025-07-26T00:13:56.815+05:30  INFO 9832 --- [serviceHub_backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-26T00:13:56.830+05:30  INFO 9832 --- [serviceHub_backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-26T00:13:56.885+05:30  INFO 9832 --- [serviceHub_backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-26T00:13:56.885+05:30  INFO 9832 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-26T00:13:56.914+05:30  INFO 9832 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-26T00:14:21.205+05:30  INFO 7220 --- [serviceHub_backend] [main] com.servicehub.Application               : Starting Application using Java 21 with PID 7220 (C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend\target\classes started by ramuc in C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend)
-2025-07-26T00:14:21.207+05:30 DEBUG 7220 --- [serviceHub_backend] [main] com.servicehub.Application               : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-26T00:14:21.207+05:30  INFO 7220 --- [serviceHub_backend] [main] com.servicehub.Application               : No active profile set, falling back to 1 default profile: "default"
-2025-07-26T00:14:22.177+05:30  INFO 7220 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-26T00:14:22.177+05:30  INFO 7220 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-26T00:14:22.396+05:30  INFO 7220 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 206 ms. Found 5 JPA repository interfaces.
-2025-07-26T00:14:22.429+05:30  INFO 7220 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-26T00:14:22.429+05:30  INFO 7220 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2025-07-26T00:14:22.445+05:30  INFO 7220 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-26T00:14:22.445+05:30  INFO 7220 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.LocationsRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-26T00:14:22.445+05:30  INFO 7220 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.ProviderRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-26T00:14:22.445+05:30  INFO 7220 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.ServiceCategoryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-26T00:14:22.460+05:30  INFO 7220 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-26T00:14:22.460+05:30  INFO 7220 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
-2025-07-26T00:14:23.214+05:30  INFO 7220 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-26T00:14:23.230+05:30  INFO 7220 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-26T00:14:23.230+05:30  INFO 7220 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-26T00:14:23.292+05:30  INFO 7220 --- [serviceHub_backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-26T00:14:23.292+05:30  INFO 7220 --- [serviceHub_backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2028 ms
-2025-07-26T00:14:23.450+05:30  INFO 7220 --- [serviceHub_backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-26T00:14:23.528+05:30  INFO 7220 --- [serviceHub_backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-26T00:14:23.543+05:30  INFO 7220 --- [serviceHub_backend] [main] o.h.spatial.integration.SpatialService   : HHH80000001: hibernate-spatial integration enabled : true
-2025-07-26T00:14:23.576+05:30  INFO 7220 --- [serviceHub_backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-26T00:14:23.763+05:30  INFO 7220 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-26T00:14:23.952+05:30  INFO 7220 --- [serviceHub_backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1a4083f6
-2025-07-26T00:14:23.952+05:30  INFO 7220 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-26T00:14:23.998+05:30  WARN 7220 --- [serviceHub_backend] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-07-26T00:14:24.030+05:30  INFO 7220 --- [serviceHub_backend] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-08-24T22:33:39.745+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.CustomerController        : Job update request received from user: customer1@gmail.com
+2025-08-24T22:33:39.745+05:30 ERROR 16700 --- [serviceHub_backend] [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Request not found with id: 4] with root cause
+
+java.lang.IllegalArgumentException: Request not found with id: 4
+	at com.servicehub.service.CustomerService.updateJob(CustomerService.java:65) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:724) ~[spring-aop-6.2.8.jar:6.2.8]
+	at com.servicehub.service.CustomerService$$SpringCGLIB$$0.updateJob(<generated>) ~[classes/:na]
+	at com.servicehub.controller.CustomerController.updateJob(CustomerController.java:52) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593) ~[tomcat-embed-core-10.1.42.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.42.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at com.servicehub.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:57) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319) ~[spring-security-config-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240) ~[spring-security-config-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-08-24T22:33:47.593+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-8] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T22:33:47.670+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T22:34:31.928+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-9] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T22:34:31.967+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T22:48:32.787+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T22:48:32.787+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-6] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T22:53:15.922+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-9] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T22:53:15.929+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T22:56:31.777+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-5] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T22:56:31.781+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T22:57:03.778+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-6] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T22:57:03.817+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T23:14:19.786+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
+2025-08-24T23:14:19.786+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-3] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
+2025-08-24T23:14:19.819+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Found 4 jobs near provider
+2025-08-24T23:15:14.116+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-5] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T23:15:14.172+05:30  INFO 16700 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T23:15:38.941+05:30  INFO 16700 --- [serviceHub_backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-24T23:15:39.033+05:30  INFO 16700 --- [serviceHub_backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-24T23:15:39.280+05:30  INFO 16700 --- [serviceHub_backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-24T23:15:39.310+05:30  INFO 16700 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-24T23:15:39.348+05:30  INFO 16700 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-24T23:16:32.453+05:30  INFO 13984 --- [serviceHub_backend] [main] com.servicehub.Application               : Starting Application using Java 21 with PID 13984 (C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend\target\classes started by ramuc in C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend)
+2025-08-24T23:16:32.455+05:30 DEBUG 13984 --- [serviceHub_backend] [main] com.servicehub.Application               : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-08-24T23:16:32.457+05:30  INFO 13984 --- [serviceHub_backend] [main] com.servicehub.Application               : No active profile set, falling back to 1 default profile: "default"
+2025-08-24T23:16:33.938+05:30  INFO 13984 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-24T23:16:33.938+05:30  INFO 13984 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-24T23:16:34.245+05:30  INFO 13984 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 290 ms. Found 7 JPA repository interfaces.
+2025-08-24T23:16:34.285+05:30  INFO 13984 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-24T23:16:34.288+05:30  INFO 13984 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-24T23:16:34.335+05:30  INFO 13984 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-24T23:16:34.338+05:30  INFO 13984 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.LocationsRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-24T23:16:34.338+05:30  INFO 13984 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.ProposalRepo; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-24T23:16:34.338+05:30  INFO 13984 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.ProviderRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-24T23:16:34.338+05:30  INFO 13984 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.RequestsRepo; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-24T23:16:34.338+05:30  INFO 13984 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.ServiceCategoryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-24T23:16:34.338+05:30  INFO 13984 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-24T23:16:34.344+05:30  INFO 13984 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2025-08-24T23:16:35.450+05:30  INFO 13984 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-24T23:16:35.465+05:30  INFO 13984 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-24T23:16:35.477+05:30  INFO 13984 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-08-24T23:16:35.618+05:30  INFO 13984 --- [serviceHub_backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-24T23:16:35.619+05:30  INFO 13984 --- [serviceHub_backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3073 ms
+2025-08-24T23:16:35.865+05:30  INFO 13984 --- [serviceHub_backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-24T23:16:35.995+05:30  INFO 13984 --- [serviceHub_backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-08-24T23:16:36.015+05:30  INFO 13984 --- [serviceHub_backend] [main] o.h.spatial.integration.SpatialService   : HHH80000001: hibernate-spatial integration enabled : true
+2025-08-24T23:16:36.078+05:30  INFO 13984 --- [serviceHub_backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-24T23:16:36.335+05:30  INFO 13984 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-24T23:16:36.659+05:30  INFO 13984 --- [serviceHub_backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f24ce45
+2025-08-24T23:16:36.665+05:30  INFO 13984 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-24T23:16:36.745+05:30  WARN 13984 --- [serviceHub_backend] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-24T23:16:36.795+05:30  INFO 13984 --- [serviceHub_backend] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.4
@@ -287,250 +396,25 @@ org.postgresql.util.PSQLException: ERROR: value too long for type character vary
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-07-26T00:14:24.046+05:30  INFO 7220 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-26T00:14:24.284+05:30  INFO 7220 --- [serviceHub_backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-26T00:14:24.331+05:30  INFO 7220 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-26T00:14:24.827+05:30  INFO 7220 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000004: hibernate-spatial adding function contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-26T00:14:25.626+05:30  INFO 7220 --- [serviceHub_backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-26T00:14:26.120+05:30  INFO 7220 --- [serviceHub_backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-26T00:14:26.443+05:30 DEBUG 7220 --- [serviceHub_backend] [main] c.s.security.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
-2025-07-26T00:14:26.521+05:30  INFO 7220 --- [serviceHub_backend] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2025-07-26T00:14:26.584+05:30  INFO 7220 --- [serviceHub_backend] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-07-26T00:14:27.699+05:30  WARN 7220 --- [serviceHub_backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-26T00:14:33.692+05:30  INFO 7220 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-26T00:14:33.721+05:30  INFO 7220 --- [serviceHub_backend] [main] com.servicehub.Application               : Started Application in 13.121 seconds (process running for 13.585)
-2025-07-26T00:14:50.183+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-26T00:14:50.183+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-26T00:14:50.198+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-07-26T00:14:50.481+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.AuthController   : Received login request: {email=provider1@gmail.com, password=Test1234}
-2025-07-26T00:14:52.940+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:14:52.969+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-2] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:14:53.256+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.LocationsController       : Location request received from user: provider1@gmail.com
-2025-07-26T00:14:54.935+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:15:00.520+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-6] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:15:00.520+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.LocationsController       : Location request received from user: provider1@gmail.com
-2025-07-26T00:15:00.573+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:15:00.673+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Found 0 jobs near provider
-2025-07-26T00:15:07.651+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-9] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:15:07.664+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:15:07.682+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Found 0 jobs near provider
-2025-07-26T00:15:07.973+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.LocationsController       : Location request received from user: provider1@gmail.com
-2025-07-26T00:15:24.520+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-2] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:15:24.534+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:15:24.567+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Found 0 jobs near provider
-2025-07-26T00:15:24.580+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.LocationsController       : Location request received from user: provider1@gmail.com
-2025-07-26T00:15:45.584+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-3] c.servicehub.controller.AuthController   : Received login request: {email=provider2@gmail.com, password=Test1234}
-2025-07-26T00:15:47.079+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider2@gmail.com
-2025-07-26T00:15:47.129+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.LocationsController       : Location request received from user: provider2@gmail.com
-2025-07-26T00:15:47.132+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:15:59.146+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-8] c.servicehub.controller.UserController   : Profile request for: provider2@gmail.com
-2025-07-26T00:15:59.205+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-9] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider2@gmail.com
-2025-07-26T00:15:59.225+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-9] c.s.controller.ProviderController        : Found 0 jobs near provider
-2025-07-26T00:15:59.243+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.LocationsController       : Location request received from user: provider2@gmail.com
-2025-07-26T00:16:13.501+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-1] c.servicehub.controller.UserController   : Profile request for: provider2@gmail.com
-2025-07-26T00:16:13.554+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider2@gmail.com
-2025-07-26T00:16:13.573+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.ProviderController        : Found 0 jobs near provider
-2025-07-26T00:16:13.581+05:30  INFO 7220 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.LocationsController       : Location request received from user: provider2@gmail.com
-2025-07-26T00:17:20.930+05:30  INFO 7220 --- [serviceHub_backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-26T00:17:20.945+05:30  INFO 7220 --- [serviceHub_backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-26T00:17:20.995+05:30  INFO 7220 --- [serviceHub_backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-26T00:17:21.001+05:30  INFO 7220 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-26T00:17:21.023+05:30  INFO 7220 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-26T00:17:43.517+05:30  INFO 11812 --- [serviceHub_backend] [main] com.servicehub.Application               : Starting Application using Java 21 with PID 11812 (C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend\target\classes started by ramuc in C:\Users\ramuc\OneDrive\Desktop\serviceHub_backend)
-2025-07-26T00:17:43.524+05:30 DEBUG 11812 --- [serviceHub_backend] [main] com.servicehub.Application               : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-26T00:17:43.524+05:30  INFO 11812 --- [serviceHub_backend] [main] com.servicehub.Application               : No active profile set, falling back to 1 default profile: "default"
-2025-07-26T00:17:44.442+05:30  INFO 11812 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-26T00:17:44.442+05:30  INFO 11812 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-26T00:17:44.615+05:30  INFO 11812 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 156 ms. Found 5 JPA repository interfaces.
-2025-07-26T00:17:44.631+05:30  INFO 11812 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-26T00:17:44.631+05:30  INFO 11812 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2025-07-26T00:17:44.646+05:30  INFO 11812 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-26T00:17:44.646+05:30  INFO 11812 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.LocationsRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-26T00:17:44.646+05:30  INFO 11812 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.ProviderRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-26T00:17:44.646+05:30  INFO 11812 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.ServiceCategoryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-26T00:17:44.662+05:30  INFO 11812 --- [serviceHub_backend] [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.servicehub.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-26T00:17:44.662+05:30  INFO 11812 --- [serviceHub_backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-2025-07-26T00:17:45.258+05:30  INFO 11812 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-26T00:17:45.274+05:30  INFO 11812 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-26T00:17:45.274+05:30  INFO 11812 --- [serviceHub_backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-26T00:17:45.336+05:30  INFO 11812 --- [serviceHub_backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-26T00:17:45.336+05:30  INFO 11812 --- [serviceHub_backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1763 ms
-2025-07-26T00:17:45.509+05:30  INFO 11812 --- [serviceHub_backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-26T00:17:45.572+05:30  INFO 11812 --- [serviceHub_backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-26T00:17:45.587+05:30  INFO 11812 --- [serviceHub_backend] [main] o.h.spatial.integration.SpatialService   : HHH80000001: hibernate-spatial integration enabled : true
-2025-07-26T00:17:45.634+05:30  INFO 11812 --- [serviceHub_backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-26T00:17:45.853+05:30  INFO 11812 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-26T00:17:46.027+05:30  INFO 11812 --- [serviceHub_backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7cd1ec54
-2025-07-26T00:17:46.027+05:30  INFO 11812 --- [serviceHub_backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-26T00:17:46.074+05:30  WARN 11812 --- [serviceHub_backend] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-07-26T00:17:46.089+05:30  INFO 11812 --- [serviceHub_backend] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.4
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-07-26T00:17:46.112+05:30  INFO 11812 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-26T00:17:46.370+05:30  INFO 11812 --- [serviceHub_backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-26T00:17:46.417+05:30  INFO 11812 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-26T00:17:46.850+05:30  INFO 11812 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000004: hibernate-spatial adding function contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
-2025-07-26T00:17:47.578+05:30  INFO 11812 --- [serviceHub_backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-26T00:17:48.064+05:30  INFO 11812 --- [serviceHub_backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-26T00:17:48.409+05:30 DEBUG 11812 --- [serviceHub_backend] [main] c.s.security.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
-2025-07-26T00:17:48.472+05:30  INFO 11812 --- [serviceHub_backend] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2025-07-26T00:17:48.519+05:30  INFO 11812 --- [serviceHub_backend] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-07-26T00:17:49.492+05:30  WARN 11812 --- [serviceHub_backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-26T00:17:57.456+05:30  INFO 11812 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-26T00:17:57.472+05:30  INFO 11812 --- [serviceHub_backend] [main] com.servicehub.Application               : Started Application in 14.472 seconds (process running for 14.894)
-2025-07-26T00:18:02.451+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-26T00:18:02.452+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-26T00:18:02.458+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-2025-07-26T00:18:03.128+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-2] c.servicehub.controller.UserController   : Profile request for: provider2@gmail.com
-2025-07-26T00:18:03.128+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider2@gmail.com
-2025-07-26T00:18:03.285+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:18:03.381+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.LocationsController       : Location request received from user: provider2@gmail.com
-2025-07-26T00:18:05.497+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-4] c.servicehub.controller.UserController   : Profile request for: provider2@gmail.com
-2025-07-26T00:18:05.497+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider2@gmail.com
-2025-07-26T00:18:05.532+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:18:05.580+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.LocationsController       : Location request received from user: provider2@gmail.com
-2025-07-26T00:18:06.748+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-10] c.servicehub.controller.UserController   : Profile request for: provider2@gmail.com
-2025-07-26T00:18:06.841+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-9] c.s.controller.LocationsController       : Location request received from user: provider2@gmail.com
-2025-07-26T00:18:06.758+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider2@gmail.com
-2025-07-26T00:18:06.927+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:18:30.240+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-7] c.servicehub.controller.AuthController   : Received login request: {email=provider1@gmail.com, password=Test1234}
-2025-07-26T00:18:32.108+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:18:32.132+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:18:32.170+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.LocationsController       : Location request received from user: provider1@gmail.com
-2025-07-26T00:18:48.045+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:18:48.077+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:21:41.311+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.CustomerController        : Jobs request received from user: customer3@gmail.com
-2025-07-26T00:21:45.998+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.CustomerController        : Jobs request received from user: customer3@gmail.com
-2025-07-26T00:21:49.234+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-9] c.s.controller.CustomerController        : Jobs request received from user: customer3@gmail.com
-2025-07-26T00:21:50.782+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.CustomerController        : Jobs request received from user: customer3@gmail.com
-2025-07-26T00:22:08.627+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:22:08.644+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:22:09.910+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.CustomerController        : Jobs request received from user: provider1@gmail.com
-2025-07-26T00:26:08.337+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.CustomerController        : Jobs request received from user: customer3@gmail.com
-2025-07-26T00:26:11.902+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.CustomerController        : Jobs request received from user: customer3@gmail.com
-2025-07-26T00:26:13.586+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.CustomerController        : Jobs request received from user: customer3@gmail.com
-2025-07-26T00:26:22.677+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:26:22.690+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:26:38.502+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-9] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:26:38.512+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-9] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:26:38.786+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:26:38.798+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:27:06.800+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:27:06.817+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:27:07.772+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:27:07.779+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:27:08.795+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:27:08.811+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:27:11.073+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-4] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:27:11.114+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:27:11.144+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:27:11.171+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.LocationsController       : Location request received from user: provider1@gmail.com
-2025-07-26T00:27:13.341+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:27:13.355+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:28:07.901+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:28:07.921+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:28:08.778+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:28:08.807+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:28:10.875+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:28:10.882+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:28:11.801+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:28:11.808+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:30:42.812+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:30:42.898+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:30:43.797+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:30:43.809+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:30:45.845+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:30:45.851+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-5] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:30:45.884+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:30:45.934+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.LocationsController       : Location request received from user: provider1@gmail.com
-2025-07-26T00:30:50.588+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:30:50.604+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:31:03.777+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:31:03.796+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:31:04.824+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-9] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:31:04.837+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-9] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:31:05.826+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:31:05.833+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:31:06.842+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:31:06.852+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:31:45.955+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-4] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:31:45.979+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:31:46.001+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:31:51.033+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.LocationsController       : Location request received from user: provider1@gmail.com
-2025-07-26T00:31:52.581+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:31:52.604+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:32:51.811+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:32:51.839+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:33:50.778+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:33:50.783+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:34:58.305+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-4] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:34:58.320+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:34:58.352+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:34:58.420+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.LocationsController       : Location request received from user: provider1@gmail.com
-2025-07-26T00:35:00.877+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:35:00.891+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:35:26.944+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-2] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:35:26.944+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:35:26.956+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:35:28.133+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.LocationsController       : Location request received from user: provider1@gmail.com
-2025-07-26T00:35:29.375+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:35:29.394+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:35:32.306+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.LocationsController       : Location request received from user: provider1@gmail.com
-2025-07-26T00:35:32.312+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-6] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:35:32.440+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:35:32.465+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:35:33.225+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:35:33.230+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:36:21.847+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-6] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:36:21.939+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.LocationsController       : Location request received from user: provider1@gmail.com
-2025-07-26T00:36:22.060+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:36:22.277+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:36:23.332+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-9] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:36:23.342+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-9] c.s.controller.ProviderController        : Found 0 jobs near provider
-2025-07-26T00:36:36.108+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : addService requested by provider: provider1@gmail.com
-2025-07-26T00:36:39.806+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-4] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:36:39.866+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:36:40.029+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.LocationsController       : Location request received from user: provider1@gmail.com
-2025-07-26T00:36:40.050+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:36:40.872+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:36:40.882+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:38:46.682+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.LocationsController       : Location request received from user: provider1@gmail.com
-2025-07-26T00:38:46.749+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-4] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:38:46.818+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:38:46.910+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:38:47.916+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:38:47.924+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Found 0 jobs near provider
-2025-07-26T00:39:00.307+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-2] c.s.controller.ProviderController        : addService requested by provider: provider1@gmail.com
-2025-07-26T00:39:03.609+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-5] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:39:03.624+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:39:03.689+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:39:03.700+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.LocationsController       : Location request received from user: provider1@gmail.com
-2025-07-26T00:39:04.358+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:39:04.371+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-4] c.s.controller.ProviderController        : Found 1 jobs near provider
-2025-07-26T00:39:11.408+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:39:11.444+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-2] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:39:11.489+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.LocationsController       : Location request received from user: provider1@gmail.com
-2025-07-26T00:39:11.614+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:39:12.206+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:39:12.212+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-3] c.s.controller.ProviderController        : Found 0 jobs near provider
-2025-07-26T00:39:34.910+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-6] c.servicehub.controller.UserController   : Profile request for: provider1@gmail.com
-2025-07-26T00:39:34.914+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Nearby jobs requested by provider: provider1@gmail.com
-2025-07-26T00:39:34.921+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.ProviderController        : Found 4 jobs near provider
-2025-07-26T00:40:07.483+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-5] c.s.controller.LocationsController       : Location request received from user: provider1@gmail.com
-2025-07-26T00:40:08.905+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:40:08.909+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-7] c.s.controller.ProviderController        : Found 0 jobs near provider
-2025-07-26T00:40:21.514+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:40:21.519+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-8] c.s.controller.ProviderController        : Found 0 jobs near provider
-2025-07-26T00:40:53.730+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-6] c.s.controller.CustomerController        : Jobs request received from user: provider1@gmail.com
-2025-07-26T00:41:10.159+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Services request recieved from provider: provider1@gmail.com
-2025-07-26T00:41:10.162+05:30  INFO 11812 --- [serviceHub_backend] [http-nio-8080-exec-10] c.s.controller.ProviderController        : Found 0 jobs near provider
-2025-07-26T00:41:54.183+05:30  INFO 11812 --- [serviceHub_backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-26T00:41:54.198+05:30  INFO 11812 --- [serviceHub_backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-26T00:41:54.261+05:30  INFO 11812 --- [serviceHub_backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-26T00:41:54.277+05:30  INFO 11812 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-26T00:41:54.302+05:30  INFO 11812 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-24T23:16:36.825+05:30  INFO 13984 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
+2025-08-24T23:16:37.275+05:30  INFO 13984 --- [serviceHub_backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-24T23:16:37.365+05:30  INFO 13984 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
+2025-08-24T23:16:38.065+05:30  INFO 13984 --- [serviceHub_backend] [main] org.hibernate.spatial                    : HHH80000004: hibernate-spatial adding function contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
+2025-08-24T23:16:39.679+05:30  INFO 13984 --- [serviceHub_backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-24T23:16:41.065+05:30  INFO 13984 --- [serviceHub_backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-24T23:16:42.036+05:30 DEBUG 13984 --- [serviceHub_backend] [main] c.s.security.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
+2025-08-24T23:16:42.225+05:30  INFO 13984 --- [serviceHub_backend] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-08-24T23:16:42.405+05:30  INFO 13984 --- [serviceHub_backend] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-24T23:16:45.955+05:30  WARN 13984 --- [serviceHub_backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-24T23:16:50.016+05:30  INFO 13984 --- [serviceHub_backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-24T23:16:50.050+05:30  INFO 13984 --- [serviceHub_backend] [main] com.servicehub.Application               : Started Application in 18.504 seconds (process running for 19.179)
+2025-08-24T23:16:55.294+05:30  INFO 13984 --- [serviceHub_backend] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-24T23:16:55.393+05:30  INFO 13984 --- [serviceHub_backend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-24T23:16:55.430+05:30  INFO 13984 --- [serviceHub_backend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-08-24T23:16:56.484+05:30  INFO 13984 --- [serviceHub_backend] [http-nio-8080-exec-3] c.servicehub.controller.UserController   : Profile request for: customer1@gmail.com
+2025-08-24T23:16:56.484+05:30  INFO 13984 --- [serviceHub_backend] [http-nio-8080-exec-1] c.s.controller.CustomerController        : Jobs request received from user: customer1@gmail.com
+2025-08-24T23:27:02.586+05:30  INFO 13984 --- [serviceHub_backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-24T23:27:02.620+05:30  INFO 13984 --- [serviceHub_backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-24T23:27:02.666+05:30  INFO 13984 --- [serviceHub_backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-24T23:27:02.666+05:30  INFO 13984 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-24T23:27:02.690+05:30  INFO 13984 --- [serviceHub_backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
