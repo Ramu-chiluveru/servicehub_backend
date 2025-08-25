@@ -29,9 +29,15 @@ public class ServiceCategory
     private Double price;
 
     @Column(name = "image")
-    private String image;
+    private String image;   
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", nullable = false) 
     private User user;
+
+    @Column(name = "ratings",nullable=false)
+    private Double ratings = 0.0;
+
+    @Column(name="reviews",nullable=false)
+    private int reviews = 0;
 }
