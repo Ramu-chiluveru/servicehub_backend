@@ -33,7 +33,8 @@ public class SecurityConfig {
                     "/api/user/register",
                     "/api/user/role",
                     "/api/user/address",
-                    "/api/auth/login"
+                    "/api/auth/login",
+                    "api/otp/**"
                 ).permitAll()
                 .anyRequest().authenticated()
             )

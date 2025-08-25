@@ -110,6 +110,11 @@
         <artifactId>hibernate-spatial</artifactId>
         <version>6.3.1.Final</version> <!-- Use the version matching your hibernate-core -->
     </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
 </dependencies>
 
     <build>
