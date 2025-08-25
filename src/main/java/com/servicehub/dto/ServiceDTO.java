@@ -12,4 +12,6 @@ public class ServiceDTO
     private double price;
     private String category;
     private Long id;
+    private double ratings;
+    private int reviews;
 }

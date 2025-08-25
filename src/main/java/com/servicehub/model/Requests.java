@@ -53,6 +53,9 @@ public class Requests {
     @OneToMany(mappedBy = "request", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Proposal> proposals;
 
+    @Column(name="acceptedProposalId")
+    private Long acceptedProposalId;
+
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "completed_by")
     private User provider;
