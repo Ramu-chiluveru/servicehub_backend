@@ -69,6 +69,30 @@ public class User {
     @Column(name = "created_at", updatable = false)
     private LocalDateTime createdAt;
 
+    @Column(name = "profession")
+    private String profession;
+
+    @Column(name = "category")
+    private String category;
+
+    @Column(name = "experience")
+    private String experience;
+
+    @Column(name = "skills")
+    private String skills;
+
+    @Column(name = "description", length = 1000)
+    private String description;
+
+    @Column(name = "rating")
+    private Double rating;
+
+    @Column(name = "reviews_count")
+    private Integer reviewsCount;
+
+    @Column(name = "service_location")
+    private String serviceLocation;
+
     @UpdateTimestamp
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;

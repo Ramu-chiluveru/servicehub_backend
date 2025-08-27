@@ -212,6 +212,8 @@ public class ProviderController {
         }
     }
 
+
+
     @GetMapping("/raisedjobs")
     public ResponseEntity<?> getRaisedJobs(Authentication authentication) {
         String email = authentication.getName();
