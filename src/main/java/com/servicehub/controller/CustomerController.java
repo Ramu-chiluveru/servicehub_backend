@@ -1,6 +1,7 @@
 package com.servicehub.controller;
 
 import com.servicehub.dto.AcceptProposalDTO;
+import com.servicehub.dto.BookingsDTO;
 import com.servicehub.dto.EditRequestDTO;
 import com.servicehub.dto.JobRequestDTO;
 import com.servicehub.model.User;
@@ -64,6 +65,22 @@ public class CustomerController {
          EditRequestDTO editRequestDTO = customerService.getJobDetails(id);
         return ResponseEntity.ok(editRequestDTO);
     }
+
+   @GetMapping("/bookings")
+    public ResponseEntity<?> getBookings(Authentication authentication) 
+    {
+        try {
+            String email = authentication.getName();
+            logger.info("Bookings request received from : " + email);
+
+            List<BookingsDTO> bookings = customerService.getBookings(email);
+            return ResponseEntity.ok(bookings); // Proper ResponseEntity
+        } catch (Exception e) {
+            logger.error("Error fetching bookings for {}: {}", authentication.getName(), e.getMessage());
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+    }
+
 
     @PutMapping("/proposal/")
     public ResponseEntity<?> acceptProposal(Authentication authentication,@RequestBody AcceptProposalDTO proposalPayload) 

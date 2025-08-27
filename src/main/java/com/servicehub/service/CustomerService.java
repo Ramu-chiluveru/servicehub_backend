@@ -1,19 +1,26 @@
 package com.servicehub.service;
 
+import com.servicehub.dto.BookingsDTO;
 import com.servicehub.dto.EditRequestDTO;
 import com.servicehub.dto.JobRequestDTO;
 import com.servicehub.dto.ProposalDTO;
 import com.servicehub.dto.RequestDTO;
+import com.servicehub.model.Bookings;
 import com.servicehub.model.Proposal;
 import com.servicehub.model.Requests;
+import com.servicehub.model.ServiceCategory;
 import com.servicehub.model.User;
+import com.servicehub.repository.BookingRepository;
 import com.servicehub.repository.CustomerRepository;
 import com.servicehub.repository.ProposalRepo;
 import com.servicehub.repository.RequestsRepo;
+import com.servicehub.repository.ServiceCategoryRepository;
+import com.servicehub.repository.UserRepository;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
@@ -31,10 +38,19 @@ public class CustomerService {
     private CustomerRepository customerRepository;
 
     @Autowired
+    private UserRepository userRepository;
+
+    @Autowired
     private RequestMapper requestMapper;
 
     @Autowired
-    ProposalRepo proposalRepo;
+    private ProposalRepo proposalRepo;
+
+    @Autowired
+    private BookingRepository bookingRepository;
+
+    @Autowired
+    private ServiceCategoryRepository serviceCategoryRepository;
 
     CustomerService(RequestsRepo requestsRepo) {
         this.requestsRepo = requestsRepo;
@@ -126,5 +142,35 @@ public class CustomerService {
                 .priority(request.getPriority())
                 .description(request.getDescription())
                 .build();
+    }
+
+    public List<BookingsDTO> getBookings(String email) 
+    {
+        Long customerId = userRepository.findByEmail(email).getId();
+        List<Bookings> bookings = bookingRepository.findByCustomerId(customerId);  
+        
+        List<BookingsDTO> responsePayload = new ArrayList<>();
+
+        for(Bookings booking: bookings)
+        {
+            User provider = userRepository.getReferenceById(booking.getProviderId());
+            ServiceCategory service = serviceCategoryRepository.getReferenceById(booking.getServiceId());
+            BookingsDTO bookingsDTO = BookingsDTO.builder()
+                                        .id(booking.getId())
+                                        .category(service.getCategory())
+                                        .price(service.getPrice())
+                                        .description(service.getDescription())
+                                        .providerId(service.getUser().getId())
+                                        .serviceId(service.getId())
+                                        .status(booking.getStatus().name().toLowerCase()) // Corrected
+                                        .title(service.getServicename())
+                                        .providerName(provider.getFirstName() + " " + provider.getLastName())
+                                        .createdAt(booking.getBookingDate())
+                                        .completedAt(booking.getUpdatedAt())
+                                    .build();
+            responsePayload.add(bookingsDTO);
+        }
+
+        return responsePayload;
     }
 }
