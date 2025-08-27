@@ -34,7 +34,7 @@ public class SecurityConfig {
                     "/api/user/role",
                     "/api/user/address",
                     "/api/auth/login",
-                        "api/otp/**"
+                    "api/otp/**"
                 ).permitAll()
                 .anyRequest().authenticated()
             )
